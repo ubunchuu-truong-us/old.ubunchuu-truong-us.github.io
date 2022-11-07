@@ -1,0 +1,30 @@
+title: Ubunchuu Trường Ú
+email: https://tinyurl.com/yvs96rn2 
+description: >- # this means to ignore newlines until "baseurl:"
+  Some description
+url: "https://lelouvincx.github.io"
+
+# Minima date format
+minima:
+  date_format: "%b %-d, %Y"
+  # Generate social links in footer
+  facebook: ubunchuu.club.hcmus
+  github: lelouvincx/ubunchuu-truong-us.github.io
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
