@@ -1,5 +1,5 @@
 ## Welcome to our guide page
-You can visit here: https://lelouvincx.github.io/ubunchuu-truong-us.github.io/
+You can visit here: https://ubunchuu-truong-us.github.io/
 ### How to build this page by github pages?
 1. Install Bundler
 ```
