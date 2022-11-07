@@ -8,7 +8,7 @@ bundle update
 ```
 2. Clone source code
 ```
-git clone https://github.com/lelouvincx/ubunchuu-truong-us.github.io
+git clone https://github.com/ubunchuu-truong-us/ubunchuu-truong-us.github.io
 ```
 3. Run the blog on localhost
 ```
