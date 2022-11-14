@@ -55,10 +55,6 @@
                             <a href="#lantoi" class="navbar__ccvcl">About Us</a>
                             <div class="navbar__item--underline"></div>
                         </li>
-                        <li class="navbar__item">
-                            Contact
-                            <div class="navbar__item--underline"></div>
-                        </li>
                     </ul>
                 </div>
                 <ul class="navbar__list">
@@ -67,9 +63,9 @@
                         Search
                     </li>
                     <li class="navbar__item">Login</li>
-                    <!-- <li class="navbar__item">
+                    <li class="navbar__item">
                         <i class="navbar__item-icon fa-solid fa-gear"></i>
-                    </li> -->
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -106,6 +102,7 @@
         const navbarSearchBar = document.querySelector('.navbar__item-search');
         const header = document.querySelector('.header');
         const cc = document.querySelector('.navbar__item-search-bar');
+        const icon = document.querySelector('.navbar__item-search-icon');
 
         function showSearchBar() {
             navbarSearchBar.classList.add('open');
@@ -126,6 +123,9 @@
         navbarSearch.addEventListener('click', showSearchBar);
         navbarSearchBar.addEventListener('click', closeSearchBar);
         cc.addEventListener('click', function(event){
+            event.stopPropagation();
+        })
+        icon.addEventListener('click', function(event){
             event.stopPropagation();
         })
         
