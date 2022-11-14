@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/linux.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Ubunchuu Trường Ú</title>
+</head>
+<body>
+    <header class="header">
+        <div class="grid">
+            <nav class="navbar">
+                <div class="navbar__left-list">
+                    <div class="navbar__item-home">
+                        <a href="#" class="navbar__item-home-element">
+                            <img src="./assets/img/linux-transparent.png" alt="Linux Penguin" class="navbar__item-linux-logo">
+                            Ubunchuu
+                        </a>
+                    </div>
+                    <ul class="navbar__list">
+                        <li class="navbar__item" id="navbar__item-post">
+                            Posts
+                            <i class="navbar__item-icon navbar__item-icon--arrow fa-solid fa-chevron-down"></i>
+                            <div class="navbar__item--underline"></div>
+                            <ul class="navbar__item-subnav">
+                                <li class="navbar__item-subnav-element">
+                                    <a href="#" class="navbar__item-subnav-element-link">
+                                        <img src="./assets/img/linux-transparent.png" alt="Linux Icon" class="navbar__item-subnav-icon padding-right-12">
+                                        15 days fly with penguin
+                                    </a>
+                                </li>
+                                <li class="navbar__item-subnav-element">
+                                    <a href="#" class="navbar__item-subnav-element-link">
+                                        <img src="./assets/img/linux-icon.png" alt="Linux Icon" class="navbar__item-subnav-icon padding-right-16">
+                                        Linux for data engineering
+                                    </a>
+                                </li>
+                                <li class="navbar__item-subnav-element">
+                                    <a href="#" class="navbar__item-subnav-element-link">
+                                        <img src="./assets/img/arch-linux-subnav-icon.png" alt="Arch Linux Icon" class="navbar__item-subnav-icon">
+                                        Dive into arch
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>   
+                        <li class="navbar__item">
+                            <a href="#lantoi" class="navbar__ccvcl">About Us</a>
+                            <div class="navbar__item--underline"></div>
+                        </li>
+                        <li class="navbar__item">
+                            Contact
+                            <div class="navbar__item--underline"></div>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="navbar__list">
+                    <li class="navbar__item navbar__search navbar__item--separator">
+                        <i class="navbar__item-icon fa-solid fa-magnifying-glass"></i>
+                        Search
+                    </li>
+                    <li class="navbar__item">Login</li>
+                    <!-- <li class="navbar__item">
+                        <i class="navbar__item-icon fa-solid fa-gear"></i>
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="navbar__item-search">
+        <input type="text" placeholder="Search"class="navbar__item-search-bar">
+        <span class="navbar__item-search-icon fa-solid fa-magnifying-glass"></span>
+    </div>
+
+    <div class="content">
+        <div class="main-intro">
+            <div class="main-intro__content">
+                <h1 class="main-intro__heading">UBUNCHUU</h1>
+                <h1 class="main-intro__heading">Trường Ú</h1>
+            </div>
+            <img src="./assets/img/linux-transparent.png" alt="Linux Logo" class="main-intro__icon">
+        </div>
+        <div class="intro-description">
+            Nơi
+            <span class="gradient-color margin-left-2 margin-right-2">"Lai nú"</span>
+            lên ngôi
+        </div>
+        <div class="cc" style = "min-height: 1500px;"></div>
+        <div class="ccvl" id="lantoi"></div>
+    </div> 
+
+    <footer class="footer">
+
+    </footer>
+
+    <script>
+        const navbarSearch = document.querySelector('.navbar__search');
+        console.log(navbarSearch);
+        const navbarItems = document.querySelectorAll('.navbar__item');
+        const navbarSearchBar = document.querySelector('.navbar__item-search');
+        const header = document.querySelector('.header')
+        const cc = document.querySelector('.navbar__item-search-bar')
+        console.log(navbarSearchBar);
+
+        function showSearchBar() {
+            navbarSearchBar.classList.add('open');
+            for (navbarItem of navbarItems)
+            {
+                navbarItem.classList.add('reset-navbar-animation');
+            }
+        }
+
+        function closeSearchBar () {
+            navbarSearchBar.classList.remove('open');
+            for (navbarItem of navbarItems)
+            {
+                navbarItem.classList.remove('reset-navbar-animation');
+            }
+        }
+
+        navbarSearch.addEventListener('click', showSearchBar);
+        navbarSearchBar.addEventListener('click', closeSearchBar);
+        cc.addEventListener('click', function(event){
+            event.stopPropagation();
+        })
+        
+    </script>
+</body>
+
+
+</html>

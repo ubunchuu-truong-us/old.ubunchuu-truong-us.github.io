@@ -1,0 +1,268 @@
+.header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 64px;
+    background-color: #fff;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.08);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__left-list {
+    display: flex;
+}
+
+.navbar__list {
+    margin-top: 0rem;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar__item,
+.navbar__item-home {
+    display: inline-block;
+    margin: 0 16px;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 200px;
+    position: relative;
+}
+
+.navbar__item {
+    opacity: 0.7;
+    transition: opacity ease-out 0.3s;
+}
+
+.navbar__item:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.navbar__item--underline {
+    background-color: #000;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0px;
+    display: none;
+    opacity: 0;
+}
+
+.navbar__item:hover .navbar__item--underline {
+    opacity: 0.8;
+    animation: fadeIn ease-out 0.3s;
+    display: block;
+}
+
+.navbar__item-home-element {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-left: 40px;
+    position: relative;
+}
+
+.navbar__item-icon {
+    color: inherit;
+    font-size: 1.6rem;
+    margin-right: 8px;
+}
+
+.navbar__item-icon--arrow {
+    margin-left: 4px;
+    font-size: 1.2rem;
+    color: inherit;
+}
+
+.navbar__item--separator::after {
+    content:"";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 2.4rem;
+    background-color: #000;
+    right: -18px;
+    top: 46%;
+    transform: translateY(-50%);
+    opacity: 0.2;
+}
+
+.navbar__item-linux-logo {
+    position: absolute;
+    top: -5px;
+    left: -48px;
+    height: 36px;
+    margin: 0 0;
+}
+
+/* Subnav of Posts */
+.navbar__item-subnav {
+    display: none;
+    position: absolute;
+    min-width: 300px;
+    max-width: 450px;
+    background-color: #fff;   
+    box-shadow: 0 0.5px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    top: 5.6rem;
+    left: -1.6rem;
+    padding-left: 0px;
+    animation: slideIn ease-out 0.2s;
+}
+
+.navbar__item-subnav-element {
+    display: block;
+    list-style: none;
+    padding: 12px 0;
+    padding-left: 20px;
+    
+}
+
+.navbar__item-subnav-element:hover {
+    display: block;
+    background-color: rgba(0,0,0,0.08);
+}
+
+.navbar__item:hover .navbar__item-subnav {
+    display: block;
+}
+
+.navbar__item-subnav-element-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar__item-subnav-icon {
+    height: 24px;
+    padding-right: 8px;
+}
+
+.navbar__item-subnav-icon--linux-adjust {
+    padding-right: 16px;
+}
+
+/* Search function */
+.navbar__item-search {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: top;
+    justify-content: center;
+    display: none;
+    animation: fadeIn ease-out 0.2s;
+}
+
+.reset-navbar-animation {
+    opacity: 1 !important;
+}
+
+.reset-navbar-animation:hover {
+    opacity: 1 !important;
+    cursor: default;
+}
+
+.navbar__item-search-bar {
+    margin-top: 92px;
+    background: #fff;
+    width: 512px;
+    height: 60px;
+    opacity: 1;
+    border-radius: 12px;
+    border: 0;
+    padding: 24px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.navbar__item-search-bar:focus {
+    border: 0;
+    outline: none;
+}
+
+.navbar__item-search-icon {
+    position: fixed;
+    margin-top: 114px;
+    margin-left: 452px;
+    opacity: 0.4;
+    height: 36px;
+    line-height: 1.6;
+}
+
+.open {
+    display: flex !important;
+}
+
+/* Content */
+
+.content {  
+    height: 1500px;
+}
+
+.main-intro {
+    margin-top: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-intro__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-intro__heading {
+    font-size: 96px;
+    color: #000;
+    line-height: 10.6rem;
+    margin: 0;
+    float: right;
+    text-align: end;
+}
+
+.gradient-color {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-intro__icon {
+    height: 192px;
+    padding-left: 48px;
+}
+
+.intro-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    font-size: 32px;
+    line-height: 46px;
+    text-indent: 6px;
+    font-weight: 500;
+}
+
+.ccvl {
+    min-height: 200px;
+    width: 100%;
+    background: #000;
+}
+
+.navbar__ccvcl {
+    text-decoration: none;
+    color: #000;
+}
