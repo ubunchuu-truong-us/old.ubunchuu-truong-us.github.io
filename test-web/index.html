@@ -59,13 +59,12 @@
                 </div>
                 <ul class="navbar__list">
                     <div class="navbar__item-search">
-                            <input type="text" placeholder="Search"class="navbar__item-search-bar">
+                            <input autofocus type="text" placeholder="Search"class="navbar__item-search-bar">
                             <span class="navbar__item-search-icon fa-solid fa-magnifying-glass"></span>
                         </div>
                     <li class="navbar__item navbar__search navbar__item--separator">
                         <i class="navbar__item-icon fa-solid fa-magnifying-glass"></i>
                         Search
-                        
                     </li>
                     <li class="navbar__item">Login</li>
                     <li class="navbar__item">
@@ -103,7 +102,7 @@
         const navbarItems = document.querySelectorAll('.navbar__item');
         const navbarSearchBackground = document.querySelector('.navbar__item-search');
         const navbarSearchBar = document.querySelector('.navbar__item-search-bar');
-
+        const navbarIcon = document.querySelector('.navbar__item-search-icon');
 
         function showSearchBar() {
             navbarSearchBackground.classList.add('open');
@@ -111,9 +110,10 @@
             {
                 navbarItem.classList.add('reset-navbar-animation');
             }
+            navbarSearchBar.focus();
         }
 
-        function closeSearchBar () {
+        function closeSearchBar() {
             navbarSearchBackground.classList.remove('open');
             for (navbarItem of navbarItems)
             {
@@ -121,11 +121,14 @@
             }
         }
 
+        function closeException(event) {
+            event.stopPropagation();
+        }
+
         navbarSearch.addEventListener('click', showSearchBar);
         navbarSearchBackground.addEventListener('click', closeSearchBar);
-        navbarSearchBar.addEventListener('click', function(event){
-            event.stopPropagation();
-        })
+        navbarSearchBar.addEventListener('click', closeException);
+        navbarIcon.addEventListener('click', closeException);
         
     </script>
 </body>
