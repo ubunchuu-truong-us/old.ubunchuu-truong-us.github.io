@@ -58,9 +58,14 @@
                     </ul>
                 </div>
                 <ul class="navbar__list">
+                    <div class="navbar__item-search">
+                            <input type="text" placeholder="Search"class="navbar__item-search-bar">
+                            <span class="navbar__item-search-icon fa-solid fa-magnifying-glass"></span>
+                        </div>
                     <li class="navbar__item navbar__search navbar__item--separator">
                         <i class="navbar__item-icon fa-solid fa-magnifying-glass"></i>
                         Search
+                        
                     </li>
                     <li class="navbar__item">Login</li>
                     <li class="navbar__item">
@@ -70,10 +75,7 @@
             </nav>
         </div>
     </header>
-    <div class="navbar__item-search">
-        <input type="text" placeholder="Search"class="navbar__item-search-bar">
-        <span class="navbar__item-search-icon fa-solid fa-magnifying-glass"></span>
-    </div>
+    
 
     <div class="content">
         <div class="main-intro">
@@ -99,13 +101,12 @@
     <script>
         const navbarSearch = document.querySelector('.navbar__search');
         const navbarItems = document.querySelectorAll('.navbar__item');
-        const navbarSearchBar = document.querySelector('.navbar__item-search');
-        const header = document.querySelector('.header');
-        const cc = document.querySelector('.navbar__item-search-bar');
-        const icon = document.querySelector('.navbar__item-search-icon');
+        const navbarSearchBackground = document.querySelector('.navbar__item-search');
+        const navbarSearchBar = document.querySelector('.navbar__item-search-bar');
+
 
         function showSearchBar() {
-            navbarSearchBar.classList.add('open');
+            navbarSearchBackground.classList.add('open');
             for (navbarItem of navbarItems)
             {
                 navbarItem.classList.add('reset-navbar-animation');
@@ -113,7 +114,7 @@
         }
 
         function closeSearchBar () {
-            navbarSearchBar.classList.remove('open');
+            navbarSearchBackground.classList.remove('open');
             for (navbarItem of navbarItems)
             {
                 navbarItem.classList.remove('reset-navbar-animation');
@@ -121,11 +122,8 @@
         }
 
         navbarSearch.addEventListener('click', showSearchBar);
-        navbarSearchBar.addEventListener('click', closeSearchBar);
-        cc.addEventListener('click', function(event){
-            event.stopPropagation();
-        })
-        icon.addEventListener('click', function(event){
+        navbarSearchBackground.addEventListener('click', closeSearchBar);
+        navbarSearchBar.addEventListener('click', function(event){
             event.stopPropagation();
         })
         
