@@ -4,6 +4,7 @@ kontrimnon
 New updated!
 Tran Ngoc Tuan deptrai
 Tuan ia thui vai loz
+Cuộc đời vẫn đẹp sao tình yêu vẫn đẹp sao
 ## Welcome to our guide page
 You can visit here: https://ubunchuu-truong-us.github.io/
 ### How to build this page by github pages?
