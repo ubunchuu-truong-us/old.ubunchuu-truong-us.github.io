@@ -1,7 +1,7 @@
 asdfasdf
 Nhan ia thui vl
 kontrimnon
-
+New updated!
 ## Welcome to our guide page
 You can visit here: https://ubunchuu-truong-us.github.io/
 ### How to build this page by github pages?
