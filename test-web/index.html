@@ -60,6 +60,7 @@
                 <div class="navbar__item-search">
                     <input autofocus type="text" placeholder="Search" class="navbar__item-search-bar">
                     <span class="navbar__item-search-icon fa-solid fa-magnifying-glass"></span>
+                    <span class="navbar__item-delete-icon fa-solid fa-xmark"></span>
                 </div>
                 <ul class="navbar__list">
                     <li class="navbar__item navbar__search navbar__item--separator">
@@ -102,10 +103,12 @@
         const navbarItems = document.querySelectorAll('.navbar__item');
         const navbarSearchBackground = document.querySelector('.navbar__item-search');
         const navbarSearchBar = document.querySelector('.navbar__item-search-bar');
-        const navbarIcon = document.querySelector('.navbar__item-search-icon');
+        const navbarSearchIcon = document.querySelector('.navbar__item-search-icon');
+        const navbarDeleteIcon = document.querySelector('.navbar__item-delete-icon');
 
         function showSearchBar() {
             navbarSearchBackground.classList.add('open');
+            navbarSearchBackground.style = "animation: fadeIn 0.2s ease-out";
             for (navbarItem of navbarItems)
             {
                 navbarItem.classList.add('reset-navbar-animation');
@@ -115,6 +118,7 @@
 
         function closeSearchBar() {
             navbarSearchBackground.classList.remove('open');
+            navbarSearchBar.value = "";
             for (navbarItem of navbarItems)
             {
                 navbarItem.classList.remove('reset-navbar-animation');
@@ -128,7 +132,12 @@
         navbarSearch.addEventListener('click', showSearchBar);
         navbarSearchBackground.addEventListener('click', closeSearchBar);
         navbarSearchBar.addEventListener('click', closeException);
-        navbarIcon.addEventListener('click', closeException);
+        navbarSearchIcon.addEventListener('click', closeException);
+        navbarDeleteIcon.addEventListener('click', function(event) {
+            event.stopPropagation();
+            navbarSearchBar.value="";
+            navbarSearchBar.focus();
+        })
         
     </script>
 </body>

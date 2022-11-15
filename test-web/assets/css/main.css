@@ -163,13 +163,7 @@
     z-index: 500;
     background-color: rgba(0, 0, 0, 0.7);
     justify-content: center;
-    opacity: 1;
-    transition: opacity ease-out 0.2s;
     display: none;
-}
-
-.navbar__item-search:active {
-    opacity: 0;
 }
 
 .reset-navbar-animation {
@@ -208,10 +202,17 @@
     cursor: text;
 }
 
+.navbar__item-delete-icon {
+    position: absolute;
+    font-size: 1.6rem;
+    top: calc(50% - 0.8rem);
+    right: calc(50% - (51.2rem / 2) + 2.4rem + 3.2rem);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
 .open {
     display: flex !important;
-    animation: fadeIn ease-out 0.2s;
-
 }
 
 /* Content */
