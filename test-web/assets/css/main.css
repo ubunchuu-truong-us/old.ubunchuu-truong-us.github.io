@@ -7,7 +7,7 @@
     z-index: 1;
     height: 64px;
     background-color: #fff;
-    box-shadow: 0 5px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
 }
 
 .navbar {
@@ -85,7 +85,7 @@
 }
 
 .navbar__item--separator::after {
-    content:"";
+    content: "";
     display: block;
     position: absolute;
     width: 1px;
@@ -111,8 +111,8 @@
     position: absolute;
     min-width: 300px;
     max-width: 450px;
-    background-color: #fff;   
-    box-shadow: 0 0.5px 2px rgba(0,0,0,0.5);
+    background-color: #fff;
+    box-shadow: 0 0.5px 2px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     top: 5.6rem;
     left: -1.6rem;
@@ -125,12 +125,12 @@
     list-style: none;
     padding: 12px 0;
     padding-left: 20px;
-    
+
 }
 
 .navbar__item-subnav-element:hover {
     display: block;
-    background-color: rgba(0,0,0,0.08);
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 .navbar__item:hover .navbar__item-subnav {
@@ -154,22 +154,15 @@
 }
 
 /* Search function */
-.navbar__item-search {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 500;
-    background-color: rgba(0, 0, 0, 0.7);
-    justify-content: center;
+.modal--search {
     display: none;
+    animation: fadeIn ease-out 0.2s;
 }
 
-.navbar__item-search-bar {
+.modal__search-bar {
     margin: auto;
     background: #fff;
-    width: 600px;
+    min-width: 600px;
     height: 60px;
     opacity: 1;
     border-radius: 12px;
@@ -179,31 +172,36 @@
     font-size: 1.8rem;
 }
 
-.navbar__item-search-bar:focus {
+.modal__search-bar:focus {
     border: 0;
     outline: none;
 }
 
-.navbar__item-search-icon {
+.modal__search-bar:focus {
+    border: 0;
+    outline: none;
+}
+
+.modal__search-icon {
     position: absolute;
     top: calc(50% - 1.0rem);
-    left: calc(50% - 276px);
+    left: calc(50% - 300px + 24px);
     opacity: 0.4;
     font-size: 2.0rem;
     cursor: default;
 }
 
-.navbar__item-delete-icon {
+.modal__delete-icon {
     position: absolute;
     font-size: 1.6rem;
     top: calc(50% - 0.8rem);
-    right: calc(50% - 276px);
+    right: calc(50% - 300px + 24px);
     opacity: 0.4;
     cursor: pointer;
     transition: opacity ease-out 0.2s;
 }
 
-.navbar__item-delete-icon:hover {
+.modal__delete-icon:hover {
     opacity: 0.6;
 }
 
@@ -213,7 +211,7 @@
 
 /* Content */
 
-.content {  
+.content {
     height: 1500px;
 }
 

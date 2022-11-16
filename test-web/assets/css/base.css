@@ -4,7 +4,7 @@
     --text-color: #333;
     --tw-gradient-from: #0284c7;
     --tw-gradient-to: #7e22ce;
-    --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 * {
@@ -55,11 +55,34 @@ html {
     transition: none;
 }
 
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    display: flex;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal__container {
+    position: relative;
+    margin: auto;
+}
+
 /* Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -81,6 +104,7 @@ html {
     from {
         opacity: 1;
     }
+
     to {
         opacity: 0;
     }
