@@ -88,6 +88,15 @@ html {
     }
 }
 
+@keyframes scale {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 @keyframes slideIn {
     from {
         opacity: 0;
