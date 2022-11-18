@@ -221,11 +221,13 @@
     width: 100%;
     height: 976px;
     background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-intro {
-    
-    padding-top: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
