@@ -7,6 +7,24 @@
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+@font-face {
+    font-family: SF Pro;
+    font-weight: 300;
+    src: url(../fonts/SF-Pro/SF-Pro-Display-Thin.otf) format("opentype");
+}
+
+
+@font-face {
+    font-family: SF Pro;
+    font-weight: 400;
+    src: url(../fonts/SF-Pro/SF-Pro-Display-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: SF Pro;
+    font-weight: 700;
+    src: url(../fonts/SF-Pro/SF-Pro-Display-Heavy.otf) format("opentype");
+}
 * {
     box-sizing: inherit;
 }
@@ -22,7 +40,7 @@
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'SF Pro', sans-serif;
     box-sizing: border-box;
     background-color: #f3f4f6;
     scroll-behavior: smooth;
