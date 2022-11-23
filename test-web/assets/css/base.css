@@ -22,6 +22,12 @@
 
 @font-face {
     font-family: SF Pro;
+    font-weight: 500;
+    src: url(../fonts/SF-Pro/SF-Pro-Display-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: SF Pro;
     font-weight: 700;
     src: url(../fonts/SF-Pro/SF-Pro-Display-Heavy.otf) format("opentype");
 }
@@ -29,12 +35,16 @@
     box-sizing: inherit;
 }
 
-.margin-left-2 {
+.ml-2 {
     margin-left: 2px;
 }
 
-.margin-right-2 {
+.mr-2 {
     margin-right: 2px;
+}
+
+.text-yellow {
+    color: #b39031;
 }
 
 html {
@@ -79,7 +89,6 @@ html {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 500;
     display: flex;
 }
 

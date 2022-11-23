@@ -19,11 +19,27 @@
     display: flex;
 }
 
+.navbar__item-home-element {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-left: 40px;
+    position: relative;
+}
+
+.navbar__item-linux-logo {
+    position: absolute;
+    top: -5px;
+    left: -48px;
+    height: 36px;
+    margin: 0 0;
+}
+
 .navbar__list {
-    margin-top: 0px;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
 }
 
 .navbar__item,
@@ -32,12 +48,11 @@
     margin: 0 16px;
     padding-top: 24px;
     padding-bottom: 24px;
-    font-size: 1.6rem;
-    font-weight: 200px;
-    position: relative;
 }
 
 .navbar__item {
+    font-size: 1.6rem;
+    position: relative;
     opacity: 0.7;
     transition: opacity ease-out 0.3s;
 }
@@ -63,14 +78,6 @@
     display: block;
 }
 
-.navbar__item-home-element {
-    text-decoration: none;
-    color: inherit;
-    font-size: 2.4rem;
-    font-weight: 500;
-    margin-left: 40px;
-    position: relative;
-}
 
 .navbar__item-icon {
     color: inherit;
@@ -92,17 +99,9 @@
     height: 24px;
     background-color: #000;
     right: -18px;
-    top: 46%;
+    top: 50%;
     transform: translateY(-50%);
     opacity: 0.2;
-}
-
-.navbar__item-linux-logo {
-    position: absolute;
-    top: -5px;
-    left: -48px;
-    height: 36px;
-    margin: 0 0;
 }
 
 /* Subnav of Posts */
@@ -120,6 +119,10 @@
     animation: slideIn ease-out 0.2s;
 }
 
+.navbar__item:hover .navbar__item-subnav {
+    display: block;
+}
+
 .navbar__item-subnav-element {
     display: block;
     list-style: none;
@@ -131,10 +134,6 @@
 .navbar__item-subnav-element:hover {
     display: block;
     background-color: rgba(0, 0, 0, 0.08);
-}
-
-.navbar__item:hover .navbar__item-subnav {
-    display: block;
 }
 
 .navbar__item-subnav-element-link {
@@ -219,62 +218,107 @@
 .landing-page {
     position: relative;
     width: 100%;
-    height: 100%;
-    background-image: url(../img/landing-page-bg.jpg);
+    height: 100vh;
+    /* background-image: url(../img/landing-page-bg.jpg);
     background-size: contain;  
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .main-intro {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 350px;
+    margin-top: 200px;
+    margin-bottom: 28px;
 }
 
 .main-intro__content {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    padding-top: 12px;
 }
 
 .main-intro__content > h1 {
-    color: #fff;
+    color: var(--black-color);
 }
 
 .main-intro__heading {
-    font-size: 9.6rem;
+    font-size: 8.0rem;
     color: #000;
-    line-height: 10.6rem;
+    line-height: 9.2rem;
     margin: 0;
-    float: right;
-    text-align: end;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .gradient-color {
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline;
+    padding: 0;
 }
 
 .main-intro__icon {
-    height: 192px;
-    padding-left: 48px;
+    height: 162px;
+    margin-bottom: 12px;
 }
 
 .intro-description {
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 56px;
-    font-size: 32px;
+    color: #495057;
+    font-size: 3.2rem;
     line-height: 4.6rem;
     text-indent: 6px;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.get-started {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.get-started__signature-command {
+    font-family: "Inconsolata";
+    padding: 20px 32px 20px 16px;
+    margin-right: 20px;
+    font-size: 2.0rem;
+    font-weight: 400;
+    background-color: rgba(33, 37, 41, 0.075);
+    border-radius: 0.8rem;
+}
+
+.get-started__signature-command::before {
+    content: "$";
+    opacity: 0.6;
+    margin-right: 8px;
+}
+
+.get-started__btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(20, 33, 61, 0.9);
+    padding: 20px 32px;
+    font-size: 2.0rem;
+    font-weight: 400;
+    border-radius: 0.8rem;
+    transition: background-color 0.2s ease-out;
+    text-indent: 0.4rem;
+}
+
+.get-started__btn:hover {
+    background-color: rgba(20, 33, 61, 1);
 }
 
 .ccvl {
