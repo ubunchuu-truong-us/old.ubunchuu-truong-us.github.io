@@ -1,8 +1,10 @@
 title: Ubunchuu Trường Ú
 email: https://tinyurl.com/yvs96rn2 
-description: >- # this means to ignore newlines until "baseurl:"
-  Some description
+# description: >- # this means to ignore newlines until "baseurl:"
+  # Some description
 url: "https://ubunchuu-truong-us.github.io"
+github_username: ubunchuu-truong-us
+facebook_username: ubunchuu.club.hcmus
 
 # Minima date format
 minima:
@@ -20,11 +22,11 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
