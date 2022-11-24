@@ -1,17 +1,17 @@
 title: Ubunchuu Trường Ú
 email: https://tinyurl.com/yvs96rn2 
-# description: >- # this means to ignore newlines until "baseurl:"
-  # Some description
+description: >- # this means to ignore newlines until "baseurl:"
+  Nơi chứa tutorial về ubuntu mà bạn cần. Linux made easy!
 url: "https://ubunchuu-truong-us.github.io"
-github_username: ubunchuu-truong-us
-facebook_username: ubunchuu.club.hcmus
 
 # Minima date format
 minima:
   date_format: "%b %-d, %Y"
+
   # Generate social links in footer
-  facebook: ubunchuu.club.hcmus
-  github: ubunchuu-truong-us.github.io
+  social_links:
+    - { platform: facebook, user_url: "https://www.facebook.com/ubunchuu.club.hcmus" }
+    - { platform: github, user_url: "https://github.com/ubunchuu-truong-us" }
 
 # Build settings
 markdown: kramdown
