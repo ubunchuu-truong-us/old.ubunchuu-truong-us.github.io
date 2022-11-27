@@ -156,21 +156,17 @@
       const modalSearchBar = document.querySelector(".modal__search-bar");
       const modalSearchIcon = document.querySelector(".modal__search-icon");
       const modalDeleteIcon = document.querySelector(".modal__delete-icon");
-
       function showSearchBar() {
         modalSearch.classList.add("open");
         modalSearchBar.focus();
       }
-
       function closeSearchBar() {
         modalSearch.classList.remove("open");
         modalSearchBar.value = "";
       }
-
       function closeException(event) {
         event.stopPropagation();
       }
-
       navbarSearch.addEventListener("click", showSearchBar);
       modalSearch.addEventListener("click", closeSearchBar);
       modalSearchBar.addEventListener("click", closeException);
