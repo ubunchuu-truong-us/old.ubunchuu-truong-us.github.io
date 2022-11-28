@@ -14,34 +14,29 @@
 }
 
 @font-face {
-<<<<<<< HEAD
     font-family: SF Pro;
     font-weight: 400;
     font-style: italic;
-    src: url(../fonts/SF-Pro/SF-Pro-Display-RegularItalic.otf);
+    src: url(../fonts/SF-Pro/SF-Pro-Display-RegularItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: SF Pro;
+  font-weight: 400;
+  src: url(../fonts/SF-Pro/SF-Pro-Display-Regular.otf) format("opentype");
 }
 
 @font-face {
     font-family: SF Pro;
     font-weight: 500;
     src: url(../fonts/SF-Pro/SF-Pro-Display-Bold.otf) format("opentype");
-=======
-  font-family: SF Pro;
-  font-weight: 400;
-  src: url(../fonts/SF-Pro/SF-Pro-Display-Regular.otf) format("opentype");
->>>>>>> bbf2dcbf10b1cc12bcab34ad48fe6a4e83e3b081
-}
-
-@font-face {
-  font-family: SF Pro;
-  font-weight: 500;
-  src: url(../fonts/SF-Pro/SF-Pro-Display-Bold.otf) format("opentype");
 }
 
 @font-face {
   font-family: SF Pro;
   font-weight: 700;
   src: url(../fonts/SF-Pro/SF-Pro-Display-Heavy.otf) format("opentype");
+  
 }
 * {
   box-sizing: inherit;

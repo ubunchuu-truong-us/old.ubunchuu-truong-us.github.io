@@ -2,6 +2,15 @@ html {
   background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);;
 }
 
+.modal--menu {
+  display: none;
+}
+
+.open {
+  display: block !important;
+  z-index: 4;
+}
+
 .sidebar {
   position: fixed;
   width: 300px;

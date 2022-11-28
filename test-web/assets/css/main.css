@@ -1,4 +1,4 @@
-.body {
+body {
   overflow: hidden;
 }
 
@@ -358,6 +358,14 @@
 
 .content .landing-page .grid .get-started .get-started__btn:hover {
   background-color: rgb(56, 0, 168);
+}
+
+.width {
+  
+  height: 5px;
+  width: 320px;
+  background-color: #000;
+  display: block;
 }
 
 @keyframes typing {

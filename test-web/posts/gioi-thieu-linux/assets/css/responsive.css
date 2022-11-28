@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 1300px) and (min-width: 700px) {
+@media (max-width: 1300px) {
   .content__container--post {
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -43,7 +43,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .sidebar {
     top: 0;
     bottom: 0;
