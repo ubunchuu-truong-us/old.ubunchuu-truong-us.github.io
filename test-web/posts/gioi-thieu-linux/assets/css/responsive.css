@@ -4,7 +4,7 @@
   }
 
   .content__tableofcontent {
-    margin-top: 236px;
+    margin-top: 220px;
   }
 }
 
@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 900px) and (min-width: 700px) {
+@media (max-width: 900px) and (min-width: 700px){
   .sidebar {
     width: 200px;
   }

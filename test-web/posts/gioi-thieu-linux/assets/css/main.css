@@ -115,7 +115,7 @@ html {
 
 .sidebar__post-element:hover {
   background-color: rgba(0, 0, 0, 0.1);
-  color: #000;
+  color: rgb(37, 99, 235);
 }
 
 .sidebar__post-element:hover::before {
@@ -280,7 +280,7 @@ html {
 }
 
 .content__tableofcontent {
-  margin-top: 272px;
+  margin-top: 260px;
   position: sticky;
   align-self: flex-start;
   top: 50px;
