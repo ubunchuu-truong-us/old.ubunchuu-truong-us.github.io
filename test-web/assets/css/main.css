@@ -299,15 +299,16 @@
   position: relative;
   padding-right: 0.1rem;
 }
+
 .get-started__signature-command {
-    font-family: "Inconsolata";
-    padding: 20px 52px 20px 16px;
-    margin-right: 20px;
-    font-size: 2.0rem;
-    font-weight: 400;
-    color: var(--text-color);
-    background-color: rgba(33, 37, 41, 0.075);
-    border-radius: 0.8rem;
+  font-family: "Inconsolata";
+  padding: 20px 52px 20px 16px;
+  margin-right: 20px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: rgba(33, 37, 41, 0.075);
+  border-radius: 0.8rem;
 }
 
 .content
