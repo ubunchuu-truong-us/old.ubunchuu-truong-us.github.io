@@ -222,16 +222,6 @@
   align-items: center;
 }
 
-<<<<<<< HEAD
-.landing-page {
-    position: relative;
-    width: 100%;
-    height: 976px;  
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-=======
 .content .landing-page .grid .main-intro {
   display: flex;
   flex-direction: column;
@@ -239,7 +229,6 @@
   justify-content: center;
   margin-top: 6rem;
   margin-bottom: 3rem;
->>>>>>> bbf2dcbf10b1cc12bcab34ad48fe6a4e83e3b081
 }
 
 .content .landing-page .grid .main-intro .main-intro__content {
@@ -310,8 +299,6 @@
   position: relative;
   padding-right: 0.1rem;
 }
-
-<<<<<<< HEAD
 .get-started__signature-command {
     font-family: "Inconsolata";
     padding: 20px 52px 20px 16px;
@@ -321,7 +308,8 @@
     color: var(--text-color);
     background-color: rgba(33, 37, 41, 0.075);
     border-radius: 0.8rem;
-=======
+}
+
 .content
   .landing-page
   .grid
@@ -339,7 +327,6 @@
   margin-top: -0.4rem;
   animation: typing 6s steps(27) alternate infinite, lines 0.6s infinite;
   font-size: 2.4rem;
->>>>>>> bbf2dcbf10b1cc12bcab34ad48fe6a4e83e3b081
 }
 
 .content
