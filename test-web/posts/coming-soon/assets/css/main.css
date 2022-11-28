@@ -3,7 +3,7 @@ html {
   background-size: 1920px;
   background-position-x: center;
   background-repeat: no-repeat;
-  animation: zoomIn 5s linear;
+  animation: zoomIn 25s linear alternate infinite;
 }
 
 .ai-cho-ma-vao {
@@ -43,7 +43,7 @@ html {
     background-size: 1920px;
   }
   to {
-    background-size: 2080px;
-    background-position-y: center;
+    background-size: 3000px;
+    background-position-y: top;
   }
 }
