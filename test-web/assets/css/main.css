@@ -289,7 +289,7 @@
   font-size: 2rem;
   font-weight: 400;
   /* background-color: rgba(33, 37, 41, 0.075); */
-  background-color: rgb(178, 178, 178);
+  background-color: rgb(206, 206, 206);
   border-radius: 0.8rem;
   padding-right: 3rem;
 }
@@ -307,12 +307,12 @@
   .get-started__signature-command
   p::before {
   content: "▮";
-  color: #ccd;
+  color: #aaa;
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
-  background-color: rgb(178, 178, 178);
+  background-color: rgb(206, 206, 206);
   padding: 0.4rem 0;
   margin-top: -0.4rem;
   animation: typing 6s steps(27) alternate infinite, lines 0.6s infinite;
