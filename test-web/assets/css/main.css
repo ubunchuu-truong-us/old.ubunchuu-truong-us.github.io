@@ -288,6 +288,7 @@
   margin-right: 20px;
   font-size: 2rem;
   font-weight: 400;
+  /* background-color: rgba(33, 37, 41, 0.075); */
   background-color: rgb(206, 206, 206);
   border-radius: 0.8rem;
   padding-right: 3rem;
@@ -297,6 +298,17 @@
   margin: 0;
   position: relative;
   padding-right: 0.1rem;
+}
+
+.get-started__signature-command {
+  font-family: "Inconsolata";
+  padding: 20px 52px 20px 16px;
+  margin-right: 20px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--text-color);
+  background-color: rgba(33, 37, 41, 0.075);
+  border-radius: 0.8rem;
 }
 
 .content
@@ -323,7 +335,7 @@
   .grid
   .get-started
   .get-started__signature-command
-  .get-started__signature-command__sign {
+  .get-started__signature-command_sign {
   opacity: 0.6;
   color: #1c0338;
   font-weight: 700;
@@ -348,23 +360,6 @@
   background-color: rgb(56, 0, 168);
 }
 
-.warning-low-resolution {
-  font-size: 3.2rem;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.warning-low-res__content {
-  line-height: 4rem;
-}
-
-.warning-low-res__img {
-  width: 300px;
-  margin-top: 20px;
-}
-
 @keyframes typing {
   0% {
     width: 92%;
@@ -386,20 +381,5 @@
 @keyframes lines {
   50% {
     color: transparent;
-  }
-}
-
-@media (max-width: 760px) {
-  html {
-    font-size: 50%;
-  }
-
-  .content {
-    display: none;
-  }
-
-  .warning-low-resolution {
-    display: flex;
-    flex-direction: column;
   }
 }
