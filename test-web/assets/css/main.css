@@ -217,7 +217,7 @@
 .landing-page {
     position: relative;
     width: 100%;
-    height: 975px;  
+    height: 976px;  
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     display: flex;
     flex-direction: column;
@@ -287,10 +287,11 @@
 
 .get-started__signature-command {
     font-family: "Inconsolata";
-    padding: 20px 32px 20px 16px;
+    padding: 20px 52px 20px 16px;
     margin-right: 20px;
     font-size: 2.0rem;
     font-weight: 400;
+    color: var(--text-color);
     background-color: rgba(33, 37, 41, 0.075);
     border-radius: 0.8rem;
 }

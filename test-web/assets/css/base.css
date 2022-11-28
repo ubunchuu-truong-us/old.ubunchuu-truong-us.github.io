@@ -22,6 +22,13 @@
 
 @font-face {
     font-family: SF Pro;
+    font-weight: 400;
+    font-style: italic;
+    src: url(../fonts/SF-Pro/SF-Pro-Display-RegularItalic.otf);
+}
+
+@font-face {
+    font-family: SF Pro;
     font-weight: 500;
     src: url(../fonts/SF-Pro/SF-Pro-Display-Bold.otf) format("opentype");
 }
@@ -53,6 +60,8 @@ html {
     border-radius: 10px;
 }
 
+::-o-scro
+
 .ml-2 {
     margin-left: 2px;
 }
@@ -63,6 +72,10 @@ html {
 
 .text-yellow {
     color: #b39031;
+}
+
+.bold {
+    font-weight: 500 !important;
 }
 
 .scale-animation {
