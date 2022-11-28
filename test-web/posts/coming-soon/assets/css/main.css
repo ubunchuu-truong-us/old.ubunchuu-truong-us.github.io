@@ -3,6 +3,7 @@ html {
   background-size: 1920px;
   background-position-x: center;
   background-repeat: no-repeat;
+  animation: zoomIn 5s linear;
 }
 
 .ai-cho-ma-vao {
@@ -35,4 +36,14 @@ html {
 .lo-hoc-linux-di:hover {
   transition: background-color 0.2s ease-out;
   background-color: rgba(21, 37, 94, 1);
+}
+
+@keyframes zoomIn {
+  from {
+    background-size: 1920px;
+  }
+  to {
+    background-size: 2080px;
+    background-position-y: center;
+  }
 }
