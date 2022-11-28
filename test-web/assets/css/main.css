@@ -291,6 +291,7 @@
   /* background-color: rgba(33, 37, 41, 0.075); */
   background-color: rgb(178, 178, 178);
   border-radius: 0.8rem;
+  padding-right: 3rem;
 }
 
 .content .landing-page .grid .get-started .get-started__signature-command p {
