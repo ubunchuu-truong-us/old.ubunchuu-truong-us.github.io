@@ -26,6 +26,9 @@
 			<img class = "sidebar__heading-logo" src="../../assets/img/linux-transparent.png" alt="Linux Logo">
 			<div class="sidebar__heading-description">Ubunchuu Guidebook</div>
 		</div>
+		<div class="sidebar__post sidebar__home">
+			<a href="../../index.html" class="sidebar__element">Home</a>
+		</div>
 		<div class="sidebar__posts-container">
 			<div class="sidebar__post">
 				<div class="sidebar__post-title">
@@ -39,7 +42,6 @@
 					<a href="../coming-soon/index.html" class="sidebar__post-element sidebar__post-element--last">
 						Coming soon...
 					</a>
-					</a>
 				</div>
 			</div>
 		</div>
@@ -48,16 +50,19 @@
 	<div class="content">
 		<div class="content__container content__container--nav">
 			<div class="content__navbar-item">
-				<a href="../../index.html" class="content__navbar-item-icon">
+				<a href="../../index.html" class="content__navbar-item-icon content__navbar-item-icon--house">
 					<i class="fa-solid fa-house-chimney"></i>
 				</a>
+				<div class="content__navbar-item-icon content__navbar-item-icon--menu">
+					<i class="fa-solid fa-bars"></i>
+				</div>
 			</div>
 			<div class="content__navbar-item">
 				Giới thiệu Linux
 				<i class="fa-solid fa-caret-down content__navbar-arrow-icon"></i>
 			</div>
 		</div>
-		<div class="content__navigation">
+		<div id="navigation" class="content__navigation">
 			<a href="#" class="content__navigator content__navigator--non-active">
 				<i class="fa-solid fa-angle-left content__navigator-icon"></i>
 				PREV
@@ -67,7 +72,7 @@
 				<i class="fa-solid fa-angle-right content__navigator-icon"></i>
 			</a>
 		</div>
-		<div class="content__container content__container--post">
+		<div id="post" class="content__container content__container--post">
 			<div class="content__post">
 				<div class="content__post-title">Giới thiệu về Linux</div>
 				<div class="content__post-author">
@@ -122,17 +127,46 @@
 				</div>
 			</div>
 			<div class="content__tableofcontent">
-				<div class="content__tableofcontent-header">TABLE OF CONTENT</div>
-				<a href="#tong-quan-linux" class="content__tableofcontent-element content__tableofcontent-h1">Tổng quan về Linux</a>
+				<div class="content__tableofcontent-header">
+					TABLE OF CONTENT
+					<i class="fa-solid fa-caret-down content__navbar-arrow-icon"></i>
+				</div>
+				<div class="content__tableofcontent-element-list">
+					<a href="#tong-quan-linux" class="content__tableofcontent-element content__tableofcontent-h1">Tổng quan về Linux</a>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<script>
+		const sidebar = document.querySelector('.sidebar');
+		const modal = document.querySelector('.modal');
 		const sidebarPostTitle = document.querySelector('.sidebar__post-title');
-		const sidebarPostTitleIcon = document.querySelector('.sidebar__post-title-icon')
-		const sidebarPostList = document.querySelector('.sidebar__post-list')
-		const open = 1;
+		const sidebarPostTitleIcon = document.querySelector('.sidebar__post-title-icon');
+		const sidebarPostList = document.querySelector('.sidebar__post-list');
+		const menuBar = document.querySelector('.content__navbar-item-icon--menu');
+
+		// Mobile add table of content
+		const navigation = document.querySelector('#navigation');
+		const post = document.querySelector('#post');
+		const tableOfContentList = document.querySelector('.content__tableofcontent-element-list');
+		const tableOfContentHeader = document.querySelector('.content__tableofcontent-header');
+		const tableOfContentElements = document.querySelectorAll('.content__tableofcontent-element');
+		
+		var deviceWidth = window.innerWidth;
+		if (deviceWidth <= 768)
+		{
+			post.appendChild(navigation);
+			document.body.addEventListener('click', function() {
+				tableOfContentList.classList.remove('open');
+			})
+			tableOfContentHeader.addEventListener('click', function(event) {
+				if (tableOfContentList.className === 'content__tableofcontent-element-list')
+					tableOfContentList.classList.add('open');
+				else tableOfContentList.classList.remove('open');
+				event.stopPropagation();
+			})
+		}
 		
 		function closeSidebarPostList() {
 			sidebarPostList.classList.add('sidebar__post-list--close');
@@ -144,11 +178,28 @@
 			sidebarPostTitleIcon.style.transform = "rotate(0deg)";
 		}
 
+		function showSideBar() {
+			sidebar.classList.add('open');
+			modal.classList.add('open');
+		}
+
+		function closeSideBar() {
+			sidebar.classList.remove('open');
+			modal.classList.remove('open');
+		}
+
+		sidebarPostTitle.addEventListener('click', function() {
+			console.log('ahihi');
+		})
+
 		sidebarPostTitle.addEventListener('click', function() {
 			if (sidebarPostList.className === 'sidebar__post-list')
 				closeSidebarPostList();
 			else showSidebarPostList();
 		})
+
+		menuBar.addEventListener('click', showSideBar);
+		modal.addEventListener('click', closeSideBar);
 	</script>
 </body>
 </html>

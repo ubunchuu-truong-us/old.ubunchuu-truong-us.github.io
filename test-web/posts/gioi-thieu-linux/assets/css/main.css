@@ -1,14 +1,25 @@
 html {
-  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);;
+  background: rgb(90,103,142);
+  background: -moz-linear-gradient(0deg, rgba(90,103,142,1) 0%, rgba(17,24,54,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(90,103,142,1) 0%, rgba(17,24,54,1) 100%);
+  background: linear-gradient(0deg, rgba(90,103,142,1) 0%, rgba(17,24,54,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5a678e",endColorstr="#111836",GradientType=1);
 }
 
 .modal--menu {
   display: none;
+  opacity: 0;
+  transition: opacity 1s ease-out;
 }
 
 .open {
-  display: block !important;
+  display: flex !important;
+  opacity: 1;
   z-index: 4;
+}
+
+.close {
+  display: none !important;
 }
 
 .sidebar {
@@ -20,7 +31,9 @@ html {
   border-bottom-right-radius: 16px;
   background-color: #fff;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
-  display: flex column;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .sidebar__heading {
@@ -42,6 +55,10 @@ html {
   font-weight: 700;
 }
 
+.sidebar__home {
+  display: none;
+}
+
 .sidebar__posts-container {
   overflow: auto;
 }
@@ -58,16 +75,18 @@ html {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.sidebar__post-title {
+.sidebar__post-title, .sidebar__element {
   display: flex;
   justify-content: space-between;
   font-size: 1.6rem;
   padding: 20px 16px;
   font-weight: 500;
+  text-decoration: none;
+  color: #000;
   cursor: pointer;
 }
 
-.sidebar__post-title:hover {
+.sidebar__post-title:hover, .sidebar__element:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -166,15 +185,26 @@ html {
 }
 
 .content__navbar-item-icon {
+  display: inline;
   text-decoration: none;
+  margin-left: 8px;
   padding: 8px;
   color: #000;
   border-radius: 100%;
   transition: background-color 0.2s ease-out;
+  cursor: pointer;
 }
 
 .content__navbar-item-icon:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content__navbar-item-icon--menu {
+  display: none;
+}
+
+.content__navbar-item-icon--menu:hover {
+  background-color: #fff;
 }
 
 .content__navbar-arrow-icon {
@@ -195,7 +225,7 @@ html {
   font-size: 1.4rem;
   text-decoration: none;
   color: #000;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.6);
   transition: opacity 0.2s ease-out;
 }
 
@@ -215,6 +245,7 @@ html {
 }
 
 .cotent__container--post {
+  position: relative;
 }
 
 .content__post {
@@ -291,9 +322,9 @@ html {
 .content__tableofcontent {
   margin-top: 260px;
   position: sticky;
-  align-self: flex-start;
   top: 50px;
-  height: auto;
+  display: flex;
+  flex-direction: column;
   padding-right: 50px;
 }
 
