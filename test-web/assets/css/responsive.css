@@ -26,6 +26,10 @@
   html {
     font-size: 25%;
   }
+
+  .content .landing-page .grid {
+    margin-top: 30%;
+  }
 }
 
 @media (max-width: 350px) {
