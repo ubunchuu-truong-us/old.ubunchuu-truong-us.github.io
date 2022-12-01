@@ -47,104 +47,145 @@
 		</div>
 	</nav>
 
-	<div class="content">
-		<div class="content__container content__container--nav">
-			<div class="content__navbar-item">
-				<a href="../../index.html" class="content__navbar-item-icon content__navbar-item-icon--house">
-					<i class="fa-solid fa-house-chimney"></i>
-				</a>
-				<div class="content__navbar-item-icon content__navbar-item-icon--menu">
-					<i class="fa-solid fa-bars"></i>
-				</div>
-			</div>
-			<div class="content__navbar-item">
-				Giới thiệu Linux
-				<i class="fa-solid fa-caret-down content__navbar-arrow-icon"></i>
-			</div>
-		</div>
-		<div id="navigation" class="content__navigation">
-			<a href="#" class="content__navigator content__navigator--non-active">
-				<i class="fa-solid fa-angle-left content__navigator-icon"></i>
-				PREV
-			</a>
-			<a href="" class="content__navigator content__navigator--non-active">
-				NEXT
-				<i class="fa-solid fa-angle-right content__navigator-icon"></i>
-			</a>
-		</div>
-		<div id="post" class="content__container content__container--post">
-			<div class="content__post">
-				<div class="content__post-title">Giới thiệu về Linux</div>
-				<div class="content__post-author">
-					Nov 21, 2022 • Lelouvincx
-				</div>
-				<div class="content__post-description">
-					Chào mừng bạn đến với bài viết đầu tiên, mở đầu tutorial của chúng mình. Mình là Tux, người đồng hành cùng bạn trên chặng đường này. Cùng bắt đầu với một chút flashback về lịch sử đằng sau sự hình thành linux nhé.
-				</div>
-				<div class="content__post-h1" id="tong-quan-linux">
-					Tổng quan về Linux
-				</div>
-				<div class="content__post-p">
-					Năm 1969, Ken Thompson và Dennis Ritchie tại viện nghiên cứu Bell (đại học MIT) đã phát triển hệ điều hành UNIX. Ban đầu, UNIX được viết bằng assembly. Tuy nhiên sau đó  đã được viết lại bằng C để ổn định và mang tính di động hơn.
-				</div>
-				<div class="content__post-p">
-					Suốt khoảng thời gian lúc bấy giờ, rất nhiều hệ điều hành như BSD, MINIX,… được phát triển dựa trên hệ thống UNIX. Mặc dù vậy, chúng đều không quá thành công. Điểm chung của chúng là đều thiếu một nhân (kernel) thống nhất.
-				</div>
-				<div class="content__post-p">
-				  <span class="bold">Nhân</span> (kernel) là thành phần quan trọng nhất của một hệ điều hành. Nhân cho phép phần cứng “nói chuyện” được với phần mềm. Ngoài ra, nó còn có thể làm được ti tỉ thứ khác, nhưng chúng ta sẽ tìm hiểu sau. Còn giờ, bạn chỉ cần biết nhân điều khiển hầu như mọi thứ trong hệ thống của bạn.
-				</div>
-				<div class="content__img">
-					<img src="./assets/img/debian.PNG" alt="Debian Img" class="content__img-src">
-					<div class="content__img-description">Hình 1. Một chiếc meme nho nhỏ của chú cánh cụt</div>
-				</div>
-				<div class="content__post-p">
-					Vào năm 1991, một thanh niên trẻ tên Linus Torvalds đã bắt đầu phát triển thứ mà chúng ta gọi là nhân linux. Và rồi… boom!
-				</div>
-				<div class="content__post-p">
-					Linux ra đời!
-				</div>
-				<div class="content__post-p">
-					Linux là hệ điều hành mã nguồn mở (open-source) ra đời từ khoảng 30 năm trở lại đây, được phát triển dựa trên hệ điều hành UNIX và viết bằng ngôn ngữ lập trình C.
-				</div>
-				<div class="content__post-quote">
-					Fun fact: Linus Torvalds đã muốn gọi phát minh của mình là Freax, một từ ghép giữa “free”, “freak”, và “x” (như là một ám chỉ đến Unix). Ông đã từng xem xét cái tên “Linux,” nhưng ban đầu bác bỏ nó do quá tự cao tự đại. Sau đó thì một trong những admin của máy chủ linux của trường tự đặt tên dự án là “Linux” mà không hỏi ý kiến Torvalds. Sau cùng, ông cũng đồng ý với cái tên “Linux”.
-				</div>
-				<div class="content__post-p">
-					Linux được xuất bản dưới giấy phép công cộng GNU, giúp hạn chế hoạt động về thương mại. Ông từng tuyên bố, “Phát hành Linux theo GNU chắc chắn là điều tốt nhất tôi từng làm.” Nếu không thì chúng ta đã không có một hệ điều hành tuyệt vời với đông đảo lập trình viên ưa thích như hôm nay.
-				</div>
-				<div class="content__post-p">
-					Cấu trúc hệ điều hành Linux tóm gọn lại chỉ gồm 3 phần chính:
-				</div>
-				<ul class="content__post-list">
-					<li class="content__post-list-element">
-						<span class="bold">Kernel</span>: hay được gọi là phần nhân, vì đây là phần quan trọng nhất trong máy tính bởi chứa đựng các module hay các package để quản lý, giao tiếp giữa phần cứng máy tính và ứng dụng.
-					</li>
-					<li class="content__post-list-element">
-						<span class="bold">Shell</span>: là phần có chức năng thực thi các lệnh (command) từ người dùng hoặc từ các ứng dụng yêu cầu, chuyển đến cho kernel xử lý. Nói nôm na, shell chính là cầu nối để kernel và ứng dụng nói chuyện với nhau.
-					</li>
-					<li class="content__post-list-element">
-						<span class="bold">Application</span>: là phần quen thuộc với chúng ta nhất, phần để người dùng cài đặt và chạy ứng dụng để người dùng có thể phục vụ cho nhu cầu của mình.
-					</li>
-				</ul>
-				<div class="content__img">
-					<img src="./assets/img/pie.png" alt="Pie Img" class="content__img-src">
-					<div class="content__img-description">Hình 2. Cấu trúc Linux</div>
-				</div>
-				<div class="content__post-p">
-					<span class="bold">Ghi nhớ</span>: Linux là hệ điều hành open-source, đa số các thao tác thực hiện trên linux sẽ thông qua các câu lệnh gọn gàng và nhanh trên terminal.
-				</div>
-			</div>
-			<div class="content__tableofcontent">
-				<div class="content__tableofcontent-header">
-					TABLE OF CONTENT
-					<i class="fa-solid fa-caret-down content__navbar-arrow-icon"></i>
-				</div>
-				<div class="content__tableofcontent-element-list">
-					<a href="#tong-quan-linux" class="content__tableofcontent-element content__tableofcontent-h1">Tổng quan về Linux</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="content">
+      <div class="content__container content__container--nav">
+        <div class="content__navbar-item">
+          <a
+            href="../../index.html"
+            class="content__navbar-item-icon content__navbar-item-icon--house"
+          >
+            <i class="fa-solid fa-house-chimney"></i>
+          </a>
+          <div
+            class="content__navbar-item-icon content__navbar-item-icon--menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="content__navbar-item">
+          Giới thiệu Linux
+          <i class="fa-solid fa-caret-down content__navbar-arrow-icon"></i>
+        </div>
+      </div>
+      <div id="navigation" class="content__navigation">
+        <a href="#" class="content__navigator content__navigator--non-active">
+          <i class="fa-solid fa-angle-left content__navigator-icon"></i>
+          PREV
+        </a>
+        <a href="" class="content__navigator content__navigator--non-active">
+          NEXT
+          <i class="fa-solid fa-angle-right content__navigator-icon"></i>
+        </a>
+      </div>
+      <div id="post" class="content__container content__container--post">
+        <div class="content__post">
+          <div class="content__post-title">Giới thiệu về Linux</div>
+          <div class="content__post-author">Nov 21, 2022 • Lelouvincx</div>
+          <div class="content__post-description">
+            Chào mừng bạn đến với bài viết đầu tiên, mở đầu tutorial của chúng
+            mình. Mình là Tux, người đồng hành cùng bạn trên chặng đường này.
+            Hãy cùng bắt đầu với một chút flashback về lịch sử đằng sau sự hình
+            thành linux nhé.
+          </div>
+          <div class="content__post-h1" id="tong-quan-linux">
+            Tổng quan về Linux
+          </div>
+          <div class="content__post-p">
+            Năm 1969, Ken Thompson và Dennis Ritchie tại viện nghiên cứu Bell
+            (đại học MIT) đã phát triển hệ điều hành UNIX. Ban đầu, UNIX được
+            viết bằng assembly. Tuy nhiên sau đó đã được viết lại bằng C để ổn
+            định và mang tính di động hơn.
+          </div>
+          <div class="content__post-p">
+            Suốt khoảng thời gian lúc bấy giờ, rất nhiều hệ điều hành như BSD,
+            MINIX,… được phát triển dựa trên hệ thống UNIX. Mặc dù vậy, chúng
+            đều không quá thành công. Điểm chung của chúng là đều thiếu một nhân
+            (kernel) thống nhất.
+          </div>
+          <div class="content__post-p">
+            <span class="bold">Nhân</span> (kernel) là thành phần quan trọng
+            nhất của một hệ điều hành. Nhân cho phép phần cứng “nói chuyện” được
+            với phần mềm. Ngoài ra, nó còn có thể làm được ti tỉ thứ khác, nhưng
+            chúng ta sẽ tìm hiểu sau. Còn giờ, bạn chỉ cần biết nhân điều khiển
+            hầu như mọi thứ trong hệ thống của bạn.
+          </div>
+          <div class="content__post-p">
+            <img src="assets/img/debian.PNG" alt="a debian penguin" />
+          </div>
+          <div class="content__post-p">
+            Vào năm 1991, một thanh niên trẻ tên Linus Torvalds đã bắt đầu phát
+            triển thứ mà chúng ta gọi là nhân linux. Và rồi… boom!
+          </div>
+          <div class="content__post-p">Linux ra đời!</div>
+          <div class="content__post-p">
+            Linux là hệ điều hành mã nguồn mở (open-source) ra đời từ khoảng 30
+            năm trở lại đây, được phát triển dựa trên hệ điều hành UNIX và viết
+            bằng ngôn ngữ lập trình C.
+          </div>
+          <div class="content__post-quote">
+            Fun fact: Linus Torvalds đã muốn gọi phát minh của mình là Freax,
+            một từ ghép giữa “free”, “freak”, và “x” (như là một ám chỉ đến
+            Unix). Ông đã từng xem xét cái tên “Linux,” nhưng ban đầu bác bỏ nó
+            do quá tự cao tự đại. Sau đó thì một trong những admin của máy chủ
+            linux của trường tự đặt tên dự án là “Linux” mà không hỏi ý kiến
+            Torvalds. Sau cùng, ông cũng đồng ý với cái tên “Linux”.
+          </div>
+          <div class="content__post-p">
+            Linux được xuất bản dưới giấy phép công cộng GNU, giúp hạn chế hoạt
+            động về thương mại. Ông từng tuyên bố, “Phát hành Linux theo GNU
+            chắc chắn là điều tốt nhất tôi từng làm.” Nếu không thì chúng ta đã
+            không có một hệ điều hành tuyệt vời với đông đảo lập trình viên ưa
+            thích như hôm nay.
+          </div>
+          <div class="content__post-p">
+            Cấu trúc hệ điều hành Linux tóm gọn lại chỉ gồm 3 phần chính:
+          </div>
+          <ul class="content__post-list">
+            <li class="content__post-list-element">
+              <span class="bold">Kernel</span>: hay được gọi là phần nhân, vì
+              đây là phần quan trọng nhất trong máy tính bởi chứa đựng các
+              module hay các package để quản lý, giao tiếp giữa phần cứng máy
+              tính và ứng dụng.
+            </li>
+            <li class="content__post-list-element">
+              <span class="bold">Shell</span>: là phần có chức năng thực thi các
+              lệnh (command) từ người dùng hoặc từ các ứng dụng yêu cầu, chuyển
+              đến cho kernel xử lý. Nói nôm na, shell chính là cầu nối để kernel
+              và ứng dụng nói chuyện với nhau.
+            </li>
+            <li class="content__post-list-element">
+              <span class="bold">Application</span>: là phần quen thuộc với
+              chúng ta nhất, phần để người dùng cài đặt và chạy ứng dụng để
+              người dùng có thể phục vụ cho nhu cầu của mình.
+            </li>
+          </ul>
+          <div class="content__post-p">
+            <img
+              src="assets/img/pie.png"
+              alt="hardware-kernel-shell-applications"
+            />
+          </div>
+          <div class="content__post-p">
+            <span class="bold">Ghi nhớ</span>: Linux là hệ điều hành
+            open-source, đa số các thao tác thực hiện trên linux sẽ thông qua
+            các câu lệnh gọn gàng và nhanh trên terminal.
+          </div>
+        </div>
+        <div class="content__tableofcontent">
+          <div class="content__tableofcontent-header">
+            TABLE OF CONTENT
+            <i class="fa-solid fa-caret-down content__navbar-arrow-icon"></i>
+          </div>
+          <div class="content__tableofcontent-element-list">
+            <a
+              href="#tong-quan-linux"
+              class="content__tableofcontent-element content__tableofcontent-h1"
+              >Tổng quan về Linux</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
 	<script>
 		const sidebar = document.querySelector('.sidebar');
