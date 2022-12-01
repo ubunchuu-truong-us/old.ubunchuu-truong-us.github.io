@@ -319,6 +319,25 @@ html {
   line-height: 2.4rem;
 }
 
+.content__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.content__img-src {
+  width: 80%;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.content__img-description {
+  margin-top: 16px;
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
 .content__tableofcontent {
   margin-top: 260px;
   position: sticky;
