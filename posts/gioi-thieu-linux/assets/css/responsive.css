@@ -66,8 +66,8 @@
 
   .content__tableofcontent-element {
     margin: 0;
-    padding: 16px 104px;
-    width: 100%;
+    padding: 16px 16px;
+    width: 300px;
     text-align: center;
     color: #fff;
     font-size: 1.4rem;
@@ -170,10 +170,5 @@
     padding: 0;
     margin: 16px 0;
     top: 0;
-    width: auto;
-  }
-
-  .content__tableofcontent-element {
-    margin: 0;
   }
 }
