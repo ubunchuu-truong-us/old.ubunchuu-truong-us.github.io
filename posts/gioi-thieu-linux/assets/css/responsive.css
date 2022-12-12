@@ -22,10 +22,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 200px;
-    margin: 0;
-    margin-bottom: 64px;
+    margin-top: 64px;
     padding: 0;
+  }
+
+  .tableofcontent__container {
+    position: static;
+    display: flex;
+    justify-content: center;
   }
 
   .content__tableofcontent-header {
@@ -164,7 +168,7 @@
 
   .content__tableofcontent {
     padding: 0;
-    margin-bottom: 20px;
+    margin: 16px 0;
     top: 0;
   }
 }

@@ -341,11 +341,16 @@ html {
 
 .content__tableofcontent {
   margin-top: 260px;
-  position: sticky;
-  top: 50px;
+  position: relative;
   display: flex;
   flex-direction: column;
   padding-right: 50px;
+}
+
+.tableofcontent__container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
 }
 
 .content__tableofcontent-header {
