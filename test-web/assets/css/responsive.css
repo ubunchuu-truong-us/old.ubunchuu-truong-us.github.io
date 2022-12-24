@@ -1,0 +1,45 @@
+@media (max-width: 912px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 25%;
+  }
+
+  .content .landing-page .grid {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 22%;
+  }
+}
+
+@media (max-width: 280px) {
+  html {
+    font-size: 20%;
+  }
+}
