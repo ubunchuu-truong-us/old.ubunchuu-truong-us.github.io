@@ -16,18 +16,6 @@
 #   identifier = "lorem"
 #   url = "/docs/lorem/"
 
-# [[guide]]
-#   name = "Lorem"
-#   weight = 10
-#   identifier = "lorem"
-#   url = "/guide/lorem/"
-#
-# [[tutorial]]
-#   name = "Lorem"
-#   weight = 10
-#   identifier = "lorem"
-#   url = "/tutorial/lorem/"
-
 [[main]]
   name = "Docs"
   url = "/docs/"
@@ -48,19 +36,18 @@
   name = "Get Started"
   weight = 20
   identifier = "get-started"
-  # url = "/docs/prologue/introduction/"
 
 [[main]]
-  name = "Quick Start"
+  name = "15 Days Fly With Tux"
   weight = 40
-  identifier = "quick-start"
-  # url = "/docs/prologue/quick-start/"
+  identifier = "fly-with-tux"
+  url = "docs/linux-overview/gioi-thieu-linux/"
   parent = "get-started"
 
 [[main]]
-  name = "Tutorial"
+  name = "Manga"
   weight = 50
-  identifier = "tutorial"
+  identifier = "manga"
   # url = "https://getdoks.org/tutorial/introduction/"
   parent = "get-started"
 
