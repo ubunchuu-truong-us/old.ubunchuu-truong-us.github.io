@@ -25,7 +25,7 @@ Nhưng nếu bạn cài đặt một phiên bản của Linux: Arch thì đó l�
 
 ![](image1.jpg)
 
-Nhưng "thương cho roi cho vọt", một khi bạn cài được Arch, bạn sẽ học được vô số kiến thức bổ ích về Linux, thứ sẽ giúp bạn rất nhiều sau này.
+Nhưng "thương cho roi cho vọt", một khi bạn cài được Arch, bạn sẽ học được vô số kiến thức bổ ích về Linux, thứ sẽ giúp bạn rất nhiều sau này. Adu bbi a anh yeu em nhieu lam.
 
 ![](image2.jpg)
 <img src="image2.jpg" style="border-radius: 20px">
