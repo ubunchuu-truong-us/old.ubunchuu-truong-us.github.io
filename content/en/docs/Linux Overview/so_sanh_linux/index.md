@@ -10,10 +10,7 @@ contributors: ["lelouvincx"]
 weight: 120
 ---
 Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.
-:::info 
-:bulbs:
-**Dit me VNPT**
-:::
+
 https://youtu.be/o14-gCNRwR8
 
 ### Cài đặt
