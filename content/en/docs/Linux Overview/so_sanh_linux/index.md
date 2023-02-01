@@ -50,7 +50,6 @@ Windows và macOS có giao diện rất thân thiện với người dùng. Tuy 
 Hiện tại phiên bản Ubuntu 22.10 đã được phát triển rất thân thiện với người dùng, bạn không phải mất quá nhiều thời gian để làm quen với nó.
 
 ![](image5.jpg)
-<img src="image5.jpg" width=250>
 
 ### Bảo mật và ổn định
 
@@ -63,6 +62,7 @@ Mặc khác, Windows được coi là hệ điều hành dễ bị lây lan viru
 Windows sử dụng "drives", gọi dân dã là ổ đĩa/phân vùng. Thường là ổ đĩa C hoặc D sẽ chứa files liên quan đến hệ thống. Bạn cũng có thể chia thêm ổ đĩa từ C hoặc D để lưu trữ file cá nhân. Ngoài ra có các ổ đĩa ngoài như CD, USB.
 
 ![](image6.jpg)
+<img src="image6.jpg" width=250>
 
 Mặt khác, macOS và Linux có hệ thống quản lý files khá tương đồng vì cùng đến từ UNIX. Chúng không có "drives" như Windows, thay vào đó mọi thứ trong máy tính được coi như 1 file (kể cả ổ cứng ngoài), và tất cả files được tổ chức dưới dạng thư mục, phân chia theo cây với cùng một gốc.
 
