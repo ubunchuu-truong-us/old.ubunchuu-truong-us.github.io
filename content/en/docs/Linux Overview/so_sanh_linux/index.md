@@ -28,6 +28,7 @@ Nhưng nếu bạn cài đặt một phiên bản của Linux: Arch thì đó l�
 Nhưng "thương cho roi cho vọt", một khi bạn cài được Arch, bạn sẽ học được vô số kiến thức bổ ích về Linux, thứ sẽ giúp bạn rất nhiều sau này.
 
 ![](image2.jpg)
+<img src="image2.jpg" style="border-radius: 20px">
 
 ### Độ tương thích phần mềm
 
