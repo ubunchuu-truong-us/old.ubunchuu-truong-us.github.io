@@ -7,7 +7,7 @@ lastmod: 2023-02-01
 draft: false
 images: ""
 contributors: ["lelouvincx"]
-weight: 120
+weight: 110
 ---
 > Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.
 ### ⚙️ Cài đặt
