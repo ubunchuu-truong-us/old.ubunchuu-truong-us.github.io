@@ -14,7 +14,7 @@ Chào mừng bạn đến với bài viết đầu tiên, mở đầu tutorial c
 Mình là Tux, người đồng hành cùng bạn trong cuộc hành trình này.
 Hãy cùng bắt đầu với một chút flashback về lịch sử đằng sau sự hình thành linux.
 
-## 1️⃣ Lịch sử hình thành:
+## 1️⃣ Lịch sử hình thành
 
 Năm 1969, Ken Thompson và Dennis Ritchie tại viện nghiên cứu Bell (đại học MIT) đã phát triển hệ điều hành UNIX.
 Ban đầu, UNIX được viết bằng assembly.
@@ -42,7 +42,7 @@ Linux là hệ điều hành mã nguồn mở (open-source) ra đời từ kho�
 
 Linux được xuất bản dưới giấy phép công cộng GNU, giúp hạn chế hoạt động về thương mại. Ông từng tuyên bố, "Phát hành Linux theo GNU chắc chắn là điều tốt nhất tôi từng làm." Nếu không thì chúng ta đã không có một hệ điều hành tuyệt vời với đông đảo lập trình viên ưa thích như hôm nay.
 
-## 2️⃣ Tổng quan về Linux:
+## 2️⃣ Tổng quan về Linux
 
 Cấu trúc hệ điều hành Linux tóm gọn lại chỉ gồm 3 phần chính:
 
