@@ -9,6 +9,9 @@ description = "Ubunchuu Trường Ú là một dự án do một nhóm sinh viê
 ## Documentation
 # docsVersion = "0.3"
 
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "l", show_logo = true}
+
 ## Open Graph
 images = ["images/linux-transparent.png"]
 ogLocale = "en_US"
@@ -46,7 +49,7 @@ siteLinksSearchBox = false
 themeColor = "#fff"
 
 # Images - Temporarily left in place for backward compatibility
-quality = 85
+quality = 100
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
@@ -68,7 +71,7 @@ fillImage = "1270x740 Center" # normalize image size
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.github.com/\">Github Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2022 Ubunchuu Trường Ú"
+copyRight = "Copyright © 2022 Ubunchuu Trường Ú"
 
 # Alert
 alert = true
