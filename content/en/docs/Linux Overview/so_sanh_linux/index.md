@@ -12,11 +12,12 @@ weight: 120
 
 > Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.
 
----
 
-## Cài đặt
+### Cài đặt
 
+:::info
 Để cài Windows, chỉ cần một USB Boot có chứa Windows là có thể cài được. Windows chạy được với hầu hết các loại phần cứng, nhưng yêu cầu tối thiểu 1 GHz CPU, RAM từ 1-2 Gb và ổ cứng 15 Gb. Sau đó, quy trình cài đặt chỉ cần "bấm" và "chọn".
+:::
 
 Khác với Windows, macOS được cài đặt sẵn trong các máy macbook hoặc iMac. Khi máy về, chỉ cần tùy chỉnh một số chức năng cho phù hợp là được.
 
@@ -29,8 +30,8 @@ Nhưng nếu bạn cài đặt một phiên bản của Linux: Arch thì đó l�
 > Nhưng "thương cho roi cho vọt", một khi bạn cài được Arch, bạn sẽ học được vô số kiến thức bổ ích về Linux, thứ sẽ giúp bạn rất nhiều sau này.
 
 ![](image2.jpg)
----
-## Độ tương thích phần mềm
+
+### Độ tương thích phần mềm
 
 Windows là hệ điều hành thông dụng nhất, và nhờ đó hầu hết phần mềm tương thích với nó. Tương tự, macOS cũng có một hệ sinh thái phần mềm riêng. Ví dụ đối với editor, thay vì dùng Adobe Premier (tương thích với Windows và macOS), họ có thể dùng DaVinci Resolve, phần mềm edit video độc quyền của macOS.
 
@@ -41,8 +42,8 @@ Ngoài ra hầu hết các game trên Windows sử dụng driver của riêng h�
 Tuy nhiên, lợi thế của Linux là các phần mềm cũ từ nhiều năm trước cũng có thể cài đặt được. Ví dụ bạn cần cài đặt phiên bản chục năm trước của một phần mềm để học tập.
 
 ![](image3.jpg)
----
-## Độ khó sử dụng
+
+### Độ khó sử dụng
 
 Windows và macOS có giao diện rất thân thiện với người dùng. Tuy nhiên, chúng không phải môi trường tốt cho việc coding. MacOS được phát triển từ nhân Linux nên có một số câu lệnh tương tự Linux, nhưng thực tế, không ai chạy và quản lý server bằng macOS cả.
 
@@ -51,28 +52,28 @@ Windows và macOS có giao diện rất thân thiện với người dùng. Tuy 
 Hiện tại phiên bản Ubuntu 22.10 đã được phát triển rất thân thiện với người dùng, bạn không phải mất quá nhiều thời gian để làm quen với nó.
 
 ![](image5.jpg)
----
-## Bảo mật và ổn định
+
+### Bảo mật và ổn định
 
 Không có gì phải bàn cãi, Linux là hệ điều hành bảo mật và ổn định nhất. Thực tế với mã nguồn được công khai không khiến nó trở nên nguy hiểm như bạn vẫn nghĩ, ngược lại đó là một lợi thế. Mã nguồn mở khiến lỗi được phát hiện và chữa nhanh hơn.
 
 Mặc khác, Windows được coi là hệ điều hành dễ bị lây lan virus nhất. Với lượng người dùng lớn, Windows trở thành mục tiêu cho các phần mềm malware và virus.
----
-## Quản lý files
+
+### Quản lý files
 
 Windows sử dụng "drives", gọi dân dã là ổ đĩa/phân vùng. Thường là ổ đĩa C hoặc D sẽ chứa files liên quan đến hệ thống. Bạn cũng có thể chia thêm ổ đĩa từ C hoặc D để lưu trữ file cá nhân. Ngoài ra có các ổ đĩa ngoài như CD, USB.
 
 Mặt khác, macOS và Linux có hệ thống quản lý files khá tương đồng vì cùng đến từ UNIX. Chúng không có "drives" như Windows, thay vào đó mọi thứ trong máy tính được coi như 1 file (kể cả ổ cứng ngoài), và tất cả files được tổ chức dưới dạng thư mục, phân chia theo cây với cùng một gốc.
----
-## Shells
+
+### Shells
 
 Một trong những thứ mà Tux thích nhất khi dùng Linux là terminal. Cả Linux và macOS đều đặt `bash` là shell mặc định. Trong khi đó Windows có hệ thống shell riêng là `powershell`, với cách dùng và syntax khác biệt.
 
 Là lập trình viên, sử dụng shell để tương tác với kernel là một trong những điều bắt buộc. Lý do vì hầu hết các server hiện nay đều là Linux, kể cả khi bạn muốn thuê một VPS, hay Cloud Compute Engine. Terminal thực sự giúp cuộc sống lập trình viên dễ dàng hơn, hay vì luôn dùng chuột để điều khiển máy tính.
 
 ![](image7.jpg)
----
-## Cộng đồng hỗ trợ
+
+### Cộng đồng hỗ trợ
 
 Mặc dù lượng người dùng không nhiều bằng hai hệ điều hành kia, cộng đồng người dùng Linux là những người yêu phần mềm và đam mê công nghệ. Họ thường trao đổi, chia sẻ, hỗ trợ kiến thức với nhau.
 
@@ -81,4 +82,4 @@ MacOS cũng sở hữu một lượng fan, phần lớn về sáng tạo (thiế
 Và cuối cùng, Windows được sử dụng đại trà bởi người dùng phổ thông.
 
 ![](image8.jpg)
----
+
