@@ -28,7 +28,6 @@ Nhưng nếu bạn cài đặt một phiên bản của Linux: Arch thì đó l�
 Nhưng "thương cho roi cho vọt", một khi bạn cài được Arch, bạn sẽ học được vô số kiến thức bổ ích về Linux, thứ sẽ giúp bạn rất nhiều sau này. Adu bbi a anh yeu em nhieu lam.
 
 ![](image2.jpg)
-<img src="image2.jpg" style="border-radius: 20px">
 
 ### Độ tương thích phần mềm
 
@@ -63,7 +62,6 @@ Mặc khác, Windows được coi là hệ điều hành dễ bị lây lan viru
 Windows sử dụng "drives", gọi dân dã là ổ đĩa/phân vùng. Thường là ổ đĩa C hoặc D sẽ chứa files liên quan đến hệ thống. Bạn cũng có thể chia thêm ổ đĩa từ C hoặc D để lưu trữ file cá nhân. Ngoài ra có các ổ đĩa ngoài như CD, USB.
 
 ![](image6.jpg)
-<img src="image6.jpg" width=250>
 
 Mặt khác, macOS và Linux có hệ thống quản lý files khá tương đồng vì cùng đến từ UNIX. Chúng không có "drives" như Windows, thay vào đó mọi thứ trong máy tính được coi như 1 file (kể cả ổ cứng ngoài), và tất cả files được tổ chức dưới dạng thư mục, phân chia theo cây với cùng một gốc.
 
