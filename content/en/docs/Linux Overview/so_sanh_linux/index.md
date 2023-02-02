@@ -11,8 +11,7 @@ weight: 120
 ---
 
 > Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.
-
-
+> 
 ### Cài đặt
 
 :::info
