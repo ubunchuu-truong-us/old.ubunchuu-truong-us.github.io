@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="preload" as="font" href="https://ubunchuu-truong-us.github.io/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://ubunchuu-truong-us.github.io/fonts/vendor/jost/jost-v4-latin-500.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://ubunchuu-truong-us.github.io/fonts/vendor/jost/jost-v4-latin-700.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="https://ubunchuu-truong-us.github.io/fonts/KaTeX_Main-Regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://ubunchuu-truong-us.github.io/fonts/KaTeX_Math-Italic.woff2" type="font/woff2" crossorigin>
+
+  <script>(()=>{var b=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,a=localStorage.getItem("theme");b&&a===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),b&&a==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),a==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
+<script>(()=>{Object.keys(localStorage).forEach(function(a){/^global-alert-/.test(a)&&document.documentElement.setAttribute("data-global-alert","closed")})})()</script>
+  <link rel="stylesheet" href="https://ubunchuu-truong-us.github.io/main.c1e1a3a489b01d0fdc28c15f3dca24b49e8a917de7eff68cd24e4865372b3a81eb2103987b71e016d13e2388fed0584884a8da5f78a772fa686cec33f0abdc94.css" integrity="sha512-weGjpImwHQ/cKMFfPcoktJ6KkX3n7/aM0k5IZTcrOoHrIQOYe3HgFtE&#43;I4j&#43;0FhIhKjaX3incvpobOwz8KvclA==" crossorigin="anonymous">
+<noscript><style>img.lazyload { display: none; }</style></noscript>
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>So sánh Linux vói các hệ điều hành khác   Ubunchuu Trường Ú</title>
+<meta name="description" content="So sánh Linux vói Windows &amp; MacOS">
+<link rel="canonical" href="https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="So sánh Linux vói các hệ điều hành khác">
+<meta property="og:description" content="So sánh Linux vói Windows &amp; MacOS">
+<meta property="og:url" content="https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">
+<meta property="og:site_name" content="Ubunchuu Trường Ú">
+<meta property="article:published_time" content="2023-02-01T00:00:00+00:00">
+  <meta property="article:modified_time" content="2023-02-01T00:00:00+00:00">
+  
+  <meta property="og:image" content="https://ubunchuu-truong-us.github.io/images/linux-transparent.png"/>
+      <meta property="og:image:alt" content="Ubunchuu Trường Ú">
+    
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="So sánh Linux vói các hệ điều hành khác">
+<meta name="twitter:description" content="So sánh Linux vói Windows &amp; MacOS">
+<meta name="twitter:image" content="https://ubunchuu-truong-us.github.io/images/linux-transparent.png">
+    <meta name="twitter:image:alt" content="So sánh Linux vói các hệ điều hành khác">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://ubunchuu-truong-us.github.io/#/schema/organization/1",
+      "name": "Ubunchuu Trường Ú",
+      "url": "https://ubunchuu-truong-us.github.io/",
+      "sameAs": [
+        , "https://github.com/ubunchuu-truong-us"
+        ],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://ubunchuu-truong-us.github.io/#/schema/image/1",
+          "url": "https://ubunchuu-truong-us.github.io/images/linux-transparent.png",
+          "width":  512 ,
+          "height":  512 ,
+          "caption": "Ubunchuu Trường Ú"
+        },
+        "image": {
+          "@id": "https://ubunchuu-truong-us.github.io/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://ubunchuu-truong-us.github.io/#/schema/website/1",
+      "url": "https://ubunchuu-truong-us.github.io/",
+      "name": "Ubunchuu Trường Ú",
+      "description": "Ubunchuu Trường Ú là một dự án do một nhóm sinh viên trường KHTN lập nên, mong muốn cung cấp kiến thức bổ ích về linux và giúp các bạn học sinh, sinh viên bước đầu tiếp cận với hệ điều hành linux.",
+      "publisher": {
+          "@id": "https://ubunchuu-truong-us.github.io/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/",
+      "url": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/",
+      "name": "So sánh Linux vói các hệ điều hành khác",
+      "description": "So sánh Linux vói Windows \u0026 MacOS",
+      "isPartOf": {
+        "@id": "https://ubunchuu-truong-us.github.io/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://ubunchuu-truong-us.github.io/#/schema/organization/1"
+        },
+      "datePublished": "2023-02-01T00:00:00CET",
+      "dateModified": "2023-02-01T00:00:00CET",
+      "breadcrumb": {
+        "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://ubunchuu-truong-us.github.io/",
+          "url": "https://ubunchuu-truong-us.github.io/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://ubunchuu-truong-us.github.io/docs/",
+          "url": "https://ubunchuu-truong-us.github.io/docs/",
+          "name": "Docs"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "@id": "https://ubunchuu-truong-us.github.io/#/schema/article/1",
+          "headline": "So sánh Linux vói các hệ điều hành khác",
+          "description": "So sánh Linux vói Windows \u0026 MacOS",
+          "isPartOf": {
+            "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/"
+          },
+          "mainEntityOfPage": {
+            "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/"
+          },
+          "datePublished": "2023-02-01T00:00:00CET",
+          "dateModified": "2023-02-01T00:00:00CET",
+          "author": {
+            "@id": "https://ubunchuu-truong-us.github.io/#/schema/person/2"
+          },
+          "publisher": {
+              "@id": "https://ubunchuu-truong-us.github.io/#/schema/organization/1"
+            },
+          "image": {
+            "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/#/schema/image/2"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ubunchuu-truong-us.github.io/#/schema/person/2",
+          "name":  null ,
+          "sameAs": [
+            ]
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/#/schema/image/2",
+          "url": "https://ubunchuu-truong-us.github.io/images/linux-transparent.png",
+          "contentUrl": "https://ubunchuu-truong-us.github.io/images/linux-transparent.png",
+          "caption": "So sánh Linux vói các hệ điều hành khác"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+  <meta name="theme-color" content="#fff">
+<link rel="icon" href="https://ubunchuu-truong-us.github.io/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" sizes="180x180" href="https://ubunchuu-truong-us.github.io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ubunchuu-truong-us.github.io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ubunchuu-truong-us.github.io/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="https://ubunchuu-truong-us.github.io/site.webmanifest">
+
+  
+
+</head>
+
+  <body class="docs single">
+    <div id="announcement" data-id="global-alert-673950dd424146ab5056243a1b2b8b44" class="alert alert-primary alert-dismissible fade show text-lg-center" role="alert">
+    Ubunchuu Trường Ú đã quay trở lại sau kỳ thi cuối kỳ!
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+<div class="sticky-top">
+<div class="header-bar"></div>
+
+<header class="navbar navbar-expand-lg navbar-light doks-navbar">
+  <nav class="container-xxl flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+
+    <a class="navbar-brand order-0" href="/" aria-label="Ubunchuu Trường Ú">
+      Ubunchuu Trường Ú
+    </a>
+
+    <button class="btn btn-link order-0 ms-auto d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+    </button>
+    <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="header-bar"></div>
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Browse docs</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <aside class="doks-sidebar mt-n3">
+          <nav id="doks-docs-nav" aria-label="Tertiary navigation">
+            
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-3307b3fc3f2536ae3fb8ed40559abc76" aria-expanded="false">
+          Linux Overview
+        </button>
+        <div class="collapse" id="section-3307b3fc3f2536ae3fb8ed40559abc76">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-linux/">Giới thiệu về Linux</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded active" href="https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">So sánh Linux vói các hệ điều hành khác</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/linux-v%C3%A0-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">Linux và các hệ điều hành khác</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/v%C3%AC-sao-n%C3%AAn-s%E1%BB%AD-d%E1%BB%A5ng-linux/">Vì sao nên sử dụng Linux</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+
+          </nav>
+        </aside>
+      </div>
+    </div>
+    <button class="btn btn-menu order-2 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+    <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-lg-none"></div>
+      <div class="offcanvas-header d-lg-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="/">Ubunchuu Trường Ú</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body p-4 p-lg-0">
+        <ul class="nav flex-column flex-lg-row align-items-lg-center mt-2 mt-lg-0 ms-lg-2 me-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link ps-0 py-1 active" href="/docs/">Docs</a>
+              </li>
+            
+          
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Get Started
+                  <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-main shadow rounded border-0" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                      <a class="dropdown-item" href="/docs/linux-overview/gioi-thieu-linux/">15 Days Fly With Tux</a>
+                    </li>
+                  <li>
+                      <a class="dropdown-item" href="/">Manga</a>
+                    </li>
+                  </ul>
+              </li>
+            
+          </ul>
+
+        <hr class="text-black-50 my-4 d-lg-none">
+        <form class="doks-search position-relative flex-grow-1 ms-lg-auto me-lg-2">
+          <input id="search" class="form-control is-search" type="search" placeholder="Search docs..." aria-label="Search docs..." autocomplete="off">
+          <div id="suggestions" class="shadow bg-white rounded d-none"></div>
+        </form>
+        <hr class="text-black-50 my-4 d-lg-none">
+        <ul class="nav flex-column flex-lg-row">
+          <li class="nav-item">
+              <a class="nav-link social-link" href="https://github.com/ubunchuu-truong-us"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><small class="ms-2 d-lg-none">GitHub</small></a>
+            </li>
+          </ul>
+
+        <hr class="text-black-50 my-4 d-lg-none">
+        <button id="mode" class="btn btn-link" type="button" aria-label="Toggle user interface mode">
+          <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+          <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+        </button>
+        </div>
+    </div>
+  </nav>
+</header>
+
+
+</div>
+<div class="container-xxl">
+  <aside class="doks-sidebar">
+    <nav id="doks-docs-nav" class="collapse d-lg-none" aria-label="Tertiary navigation">
+      
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-3307b3fc3f2536ae3fb8ed40559abc76" aria-expanded="false">
+          Linux Overview
+        </button>
+        <div class="collapse" id="section-3307b3fc3f2536ae3fb8ed40559abc76">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-linux/">Giới thiệu về Linux</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded active" href="https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">So sánh Linux vói các hệ điều hành khác</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/linux-v%C3%A0-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">Linux và các hệ điều hành khác</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/v%C3%AC-sao-n%C3%AAn-s%E1%BB%AD-d%E1%BB%A5ng-linux/">Vì sao nên sử dụng Linux</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+
+    </nav>
+  </aside>
+</div>
+
+
+    <div class="wrap container-xxl" role="document">
+      <div class="content">
+        
+	<div class="row flex-xl-nowrap">
+		<div class="col-lg-5 col-xl-4 docs-sidebar d-none d-lg-block">
+			<nav class="docs-links" aria-label="Main navigation">
+				
+<ul class="list-unstyled collapsible-sidebar">
+  
+    
+      
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#section-3307b3fc3f2536ae3fb8ed40559abc76" aria-expanded="false">
+          Linux Overview
+        </button>
+        <div class="collapse" id="section-3307b3fc3f2536ae3fb8ed40559abc76">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-linux/">Giới thiệu về Linux</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded active" href="https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">So sánh Linux vói các hệ điều hành khác</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/linux-v%C3%A0-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">Linux và các hệ điều hành khác</a></li>
+              
+            
+              
+                
+                <li><a class="docs-link rounded" href="https://ubunchuu-truong-us.github.io/docs/v%C3%AC-sao-n%C3%AAn-s%E1%BB%AD-d%E1%BB%A5ng-linux/">Vì sao nên sử dụng Linux</a></li>
+              
+            
+          </ul>
+        </div>
+      </li>
+    
+  
+</ul>
+
+			</nav>
+		</div>
+		<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+			<div class="d-xl-none">
+  <button class="btn btn-outline-primary btn-sm doks-toc-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#onThisPage" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle On this page navigation">
+    <span>On this page</span>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </span>
+  </button>
+  <div class="collapse" id="onThisPage">
+    <div class="card card-body mt-3 py-1">
+      <div class="page-links">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#cài-đặt">Cài đặt</a></li>
+        <li><a href="#độ-tương-thích-phần-mềm">Độ tương thích phần mềm</a></li>
+        <li><a href="#độ-khó-sử-dụng">Độ khó sử dụng</a></li>
+        <li><a href="#bảo-mật-và-ổn-định">Bảo mật và ổn định</a></li>
+        <li><a href="#quản-lý-files">Quản lý files</a></li>
+        <li><a href="#shells">Shells</a></li>
+        <li><a href="#cộng-đồng-hỗ-trợ">Cộng đồng hỗ trợ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-links d-none d-xl-block">
+  <h3>On this page</h3>
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#cài-đặt">Cài đặt</a></li>
+        <li><a href="#độ-tương-thích-phần-mềm">Độ tương thích phần mềm</a></li>
+        <li><a href="#độ-khó-sử-dụng">Độ khó sử dụng</a></li>
+        <li><a href="#bảo-mật-và-ổn-định">Bảo mật và ổn định</a></li>
+        <li><a href="#quản-lý-files">Quản lý files</a></li>
+        <li><a href="#shells">Shells</a></li>
+        <li><a href="#cộng-đồng-hỗ-trợ">Cộng đồng hỗ trợ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+		</nav>
+		<main class="docs-content col-lg-11 col-xl-9 mx-xl-auto">
+		
+			<h1>So sánh Linux vói các hệ điều hành khác</h1>
+			<p class="lead"></p>
+			<nav class="d-xl-none" aria-label="Quaternary navigation">
+				<div class="d-xl-none">
+  <button class="btn btn-outline-primary btn-sm doks-toc-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#onThisPage" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle On this page navigation">
+    <span>On this page</span>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+    </span>
+  </button>
+  <div class="collapse" id="onThisPage">
+    <div class="card card-body mt-3 py-1">
+      <div class="page-links">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#cài-đặt">Cài đặt</a></li>
+        <li><a href="#độ-tương-thích-phần-mềm">Độ tương thích phần mềm</a></li>
+        <li><a href="#độ-khó-sử-dụng">Độ khó sử dụng</a></li>
+        <li><a href="#bảo-mật-và-ổn-định">Bảo mật và ổn định</a></li>
+        <li><a href="#quản-lý-files">Quản lý files</a></li>
+        <li><a href="#shells">Shells</a></li>
+        <li><a href="#cộng-đồng-hỗ-trợ">Cộng đồng hỗ trợ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page-links d-none d-xl-block">
+  <h3>On this page</h3>
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#cài-đặt">Cài đặt</a></li>
+        <li><a href="#độ-tương-thích-phần-mềm">Độ tương thích phần mềm</a></li>
+        <li><a href="#độ-khó-sử-dụng">Độ khó sử dụng</a></li>
+        <li><a href="#bảo-mật-và-ổn-định">Bảo mật và ổn định</a></li>
+        <li><a href="#quản-lý-files">Quản lý files</a></li>
+        <li><a href="#shells">Shells</a></li>
+        <li><a href="#cộng-đồng-hỗ-trợ">Cộng đồng hỗ trợ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+			</nav>
+			<p>Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.</p>
+<p>https://youtu.be/o14-gCNRwR8</p>
+<h3 id="cài-đặt">Cài đặt <a href="#c%c3%a0i-%c4%91%e1%ba%b7t" class="anchor" aria-hidden="true">#</a></h3>
+<p>Để cài Windows, chỉ cần một USB Boot có chứa Windows là có thể cài được. Windows chạy được với hầu hết các loại phần cứng, nhưng yêu cầu tối thiểu 1 GHz CPU, RAM từ 1-2 Gb và ổ cứng 15 Gb. Sau đó, quy trình cài đặt chỉ cần &ldquo;bấm&rdquo; và &ldquo;chọn&rdquo;.</p>
+<p>Khác với Windows, macOS được cài đặt sẵn trong các máy macbook hoặc iMac. Khi máy về, chỉ cần tùy chỉnh một số chức năng cho phù hợp là được.</p>
+<p>Hiện tại, cài đặt Ubuntu đã được tinh gọn, thêm giao diện người dùng (UI). Cũng giống Windows, để cài Ubuntu chỉ cần một USB Boot có chứa Ubuntu theo phiên bản đã chọn. Nhưng so với Windows thì Ubuntu có yêu cầu phần cứng thấp hơn nhiều. Các máy từ đời &ldquo;Hán&rdquo; với chip Pentium 10 năm tuổi cũng có thể cài được và sử dụng trơn tru.</p>
+<p>Nhưng nếu bạn cài đặt một phiên bản của Linux: Arch thì đó là một câu chuyện khác. Bạn sẽ phải cài đặt lại hết từ đầu những thứ cần có của một hệ điều hành. Từ việc chia phân vùng, kết nối internet, thiết lập đồng hồ, cài đặt packages liên quan, &hellip; tất cả thực hiện trên giao diện dòng lệnh terminal (CLI).</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image1_hu1679d61f24ba8eaa74ecc6490bccaec2_147863_d835cb019bc2b362328624fa74306c48.webp 480w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image1_hu1679d61f24ba8eaa74ecc6490bccaec2_147863_837d3509b3f014d874616a20ba8d04f6.webp 720w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image1_hu1679d61f24ba8eaa74ecc6490bccaec2_147863_9ed0673eba930f60c863096cbd37e083.webp 1080w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image1_hu1679d61f24ba8eaa74ecc6490bccaec2_147863_2808d0a236a4f1decc0f7df2c1d412a2.webp 1280w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image1_hu1679d61f24ba8eaa74ecc6490bccaec2_147863_1344x0_resize_q75_h2_box.webp 1344w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image1_hu1679d61f24ba8eaa74ecc6490bccaec2_147863_1344x0_resize_q75_h2_box.webp" width="1344" height="1274"></p>
+<p>Nhưng &ldquo;thương cho roi cho vọt&rdquo;, một khi bạn cài được Arch, bạn sẽ học được vô số kiến thức bổ ích về Linux, thứ sẽ giúp bạn rất nhiều sau này. Adu bbi a anh yeu em nhieu lam.</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image2_hu029325fb1a801cac62bb619841a34b6e_75206_84225f6d382c74c6445d30dd7234922b.webp 480w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image2_hu029325fb1a801cac62bb619841a34b6e_75206_680x0_resize_q75_h2_box.webp 680w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image2_hu029325fb1a801cac62bb619841a34b6e_75206_680x0_resize_q75_h2_box.webp" width="680" height="677"></p>
+<h3 id="độ-tương-thích-phần-mềm">Độ tương thích phần mềm <a href="#%c4%91%e1%bb%99-t%c6%b0%c6%a1ng-th%c3%adch-ph%e1%ba%a7n-m%e1%bb%81m" class="anchor" aria-hidden="true">#</a></h3>
+<p>Windows là hệ điều hành thông dụng nhất, và nhờ đó hầu hết phần mềm tương thích với nó. Tương tự, macOS cũng có một hệ sinh thái phần mềm riêng. Ví dụ đối với editor, thay vì dùng Adobe Premier (tương thích với Windows và macOS), họ có thể dùng DaVinci Resolve, phần mềm edit video độc quyền của macOS.</p>
+<p>Tuy nhiên đối với Linux, một vài phần mềm ở Windows không có phiên bản cho Linux như Zalo, Adobe (Photoshop, Illustrator, Premier, &hellip;). Bạn vẫn có thể sử dụng chúng thông qua <a href="https://www.winehq.org/">Wine</a>, nhưng khó để nói chúng chạy mượt mà như trên Windows.</p>
+<p>Ngoài ra hầu hết các game trên Windows sử dụng driver của riêng họ là DirectX, vì vậy, nếu bạn dành phần lớn thời gian chơi game thì tốt nhất là dùng Windows.</p>
+<p>Tuy nhiên, lợi thế của Linux là các phần mềm cũ từ nhiều năm trước cũng có thể cài đặt được. Ví dụ bạn cần cài đặt phiên bản chục năm trước của một phần mềm để học tập.</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image3_hu243436bc4ef23e9eba188946614f2aab_404667_6976d05ab44fe5dc1e2bcd017b0f4e61.webp 480w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image3_hu243436bc4ef23e9eba188946614f2aab_404667_815d00ffc23a8da05c0016b6c2710901.webp 720w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image3_hu243436bc4ef23e9eba188946614f2aab_404667_e9a506b8a64c81fd4fc63f02d554f037.webp 1080w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image3_hu243436bc4ef23e9eba188946614f2aab_404667_0d9d937986a8f2ae787e99ffead3938c.webp 1280w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image3_hu243436bc4ef23e9eba188946614f2aab_404667_402db3494bf09b7ba204ad14789b0e8e.webp 1600w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image3_hu243436bc4ef23e9eba188946614f2aab_404667_1949x0_resize_q75_h2_box.webp 1949w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image3_hu243436bc4ef23e9eba188946614f2aab_404667_1949x0_resize_q75_h2_box.webp" width="1949" height="3464"></p>
+<h3 id="độ-khó-sử-dụng">Độ khó sử dụng <a href="#%c4%91%e1%bb%99-kh%c3%b3-s%e1%bb%ad-d%e1%bb%a5ng" class="anchor" aria-hidden="true">#</a></h3>
+<p>Windows và macOS có giao diện rất thân thiện với người dùng. Tuy nhiên, chúng không phải môi trường tốt cho việc coding. MacOS được phát triển từ nhân Linux nên có một số câu lệnh tương tự Linux, nhưng thực tế, không ai chạy và quản lý server bằng macOS cả.</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image4_hu0c59c27f79fd1d78991d54d29e7a0231_348458_d2b202df9f2bd2b79c10734c2df4fefe.webp 480w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image4_hu0c59c27f79fd1d78991d54d29e7a0231_348458_596x0_resize_q75_h2_box.webp 596w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image4_hu0c59c27f79fd1d78991d54d29e7a0231_348458_596x0_resize_q75_h2_box.webp" width="596" height="576"></p>
+<p>Hiện tại phiên bản Ubuntu 22.10 đã được phát triển rất thân thiện với người dùng, bạn không phải mất quá nhiều thời gian để làm quen với nó.</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image5_hu8231bbeb7c1f72c8ba764b406c86c07f_360170_9e511a540af0649317018ce4eaa7c767.webp 480w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image5_hu8231bbeb7c1f72c8ba764b406c86c07f_360170_86daed9b3161ed45e8663b9232f098dd.webp 720w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image5_hu8231bbeb7c1f72c8ba764b406c86c07f_360170_750x0_resize_q75_h2_box.webp 750w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image5_hu8231bbeb7c1f72c8ba764b406c86c07f_360170_750x0_resize_q75_h2_box.webp" width="750" height="500"></p>
+<h3 id="bảo-mật-và-ổn-định">Bảo mật và ổn định <a href="#b%e1%ba%a3o-m%e1%ba%adt-v%c3%a0-%e1%bb%95n-%c4%91%e1%bb%8bnh" class="anchor" aria-hidden="true">#</a></h3>
+<p>Không có gì phải bàn cãi, Linux là hệ điều hành bảo mật và ổn định nhất. Thực tế với mã nguồn được công khai không khiến nó trở nên nguy hiểm như bạn vẫn nghĩ, ngược lại đó là một lợi thế. Mã nguồn mở khiến lỗi được phát hiện và chữa nhanh hơn.</p>
+<p>Mặc khác, Windows được coi là hệ điều hành dễ bị lây lan virus nhất. Với lượng người dùng lớn, Windows trở thành mục tiêu cho các phần mềm malware và virus.</p>
+<h3 id="quản-lý-files">Quản lý files <a href="#qu%e1%ba%a3n-l%c3%bd-files" class="anchor" aria-hidden="true">#</a></h3>
+<p>Windows sử dụng &ldquo;drives&rdquo;, gọi dân dã là ổ đĩa/phân vùng. Thường là ổ đĩa C hoặc D sẽ chứa files liên quan đến hệ thống. Bạn cũng có thể chia thêm ổ đĩa từ C hoặc D để lưu trữ file cá nhân. Ngoài ra có các ổ đĩa ngoài như CD, USB.</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image6_hu16d53f514a748db21c645e7fea426d25_18711_274x0_resize_q75_h2_box.webp 274w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image6_hu16d53f514a748db21c645e7fea426d25_18711_274x0_resize_q75_h2_box.webp" width="274" height="184"></p>
+<p>Mặt khác, macOS và Linux có hệ thống quản lý files khá tương đồng vì cùng đến từ UNIX. Chúng không có &ldquo;drives&rdquo; như Windows, thay vào đó mọi thứ trong máy tính được coi như 1 file (kể cả ổ cứng ngoài), và tất cả files được tổ chức dưới dạng thư mục, phân chia theo cây với cùng một gốc.</p>
+<h3 id="shells">Shells <a href="#shells" class="anchor" aria-hidden="true">#</a></h3>
+<p>Một trong những thứ mà Tux thích nhất khi dùng Linux là terminal. Cả Linux và macOS đều đặt <code>bash</code> là shell mặc định. Trong khi đó Windows có hệ thống shell riêng là <code>powershell</code>, với cách dùng và syntax khác biệt.</p>
+<p>Là lập trình viên, sử dụng shell để tương tác với kernel là một trong những điều bắt buộc. Lý do vì hầu hết các server hiện nay đều là Linux, kể cả khi bạn muốn thuê một VPS, hay Cloud Compute Engine. Terminal thực sự giúp cuộc sống lập trình viên dễ dàng hơn, hay vì luôn dùng chuột để điều khiển máy tính.</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image7_hucd6d454e57e1737c7e5b036871976aa4_14547_300x0_resize_q75_h2_box.webp 300w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image7_hucd6d454e57e1737c7e5b036871976aa4_14547_300x0_resize_q75_h2_box.webp" width="300" height="168"></p>
+<h3 id="cộng-đồng-hỗ-trợ">Cộng đồng hỗ trợ <a href="#c%e1%bb%99ng-%c4%91%e1%bb%93ng-h%e1%bb%97-tr%e1%bb%a3" class="anchor" aria-hidden="true">#</a></h3>
+<p>Mặc dù lượng người dùng không nhiều bằng hai hệ điều hành kia, cộng đồng người dùng Linux là những người yêu phần mềm và đam mê công nghệ. Họ thường trao đổi, chia sẻ, hỗ trợ kiến thức với nhau.</p>
+<p>MacOS cũng sở hữu một lượng fan, phần lớn về sáng tạo (thiết kế đồ họa, animation, video, &hellip;) và về cách sử dụng những thứ được Apple làm sẵn.</p>
+<p>Và cuối cùng, Windows được sử dụng đại trà bởi người dùng phổ thông.</p>
+<p><img class="img-fluid lazyload blur-up" srcset="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image8_hu6b4a4b567fa8036b0e3451ff40cfa338_66530_5b192ebffb5949f4f8a779bcd8b46812.webp 480w, /docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image8_hu6b4a4b567fa8036b0e3451ff40cfa338_66530_f2f39555e91f6bae5002e3a4ec6eaecb.webp 720w" sizes="80vw" src="/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/image8_hu6b4a4b567fa8036b0e3451ff40cfa338_66530_720x0_resize_q75_h2_box.webp" width="720" height="960"></p>
+
+			<div class="page-footer-meta d-flex flex-column flex-md-row justify-content-between">
+				</div>
+			<div class="docs-navigation d-flex justify-content-between">
+	
+	<a href="/docs/gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-linux/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					&larr; Giới thiệu về Linux
+				</div>
+			</div>
+		</a>
+	<a class="ms-auto" href="/docs/linux-v%C3%A0-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/">
+			<div class="card my-1">
+				<div class="card-body py-2">
+					Linux và các hệ điều hành khác &rarr;
+				</div>
+			</div>
+		</a>
+	</div>
+
+			
+		</main>
+	</div>
+
+      </div>
+    </div>
+    
+    
+    <footer class="footer text-muted">
+  <div class="container-xxl">
+    <div class="row">
+      <div class="col-lg-8 order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item">Powered by <a class="text-muted" href="https://www.github.com/">Github Pages</a>, <a class="text-muted" href="https://gohugo.io/">Hugo</a>, and <a class="text-muted" href="https://getdoks.org/">Doks</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+        <ul class="list-inline">
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/bootstrap.min.fdbe9b9ba88a036135318f3c721784d684ac9e3280fe282cc80d7d49f7f9c82780cd54228c1608685a230c09984300d7946fc471734d566fcebc148b65bd16db.js" integrity="sha512-/b6bm6iKA2E1MY88cheE1oSsnjKA/igsyA19Sff5yCeAzVQijBYIaFojDAmYQwDXlG/EcXNNVm/OvBSLZb0W2w==" crossorigin="anonymous" defer></script>
+  <script src="/js/highlight.min.738c46289da75b2c5ca49f59b4783417e5f2cc2e670d89df67f4b000958d307081cb1460aca55976836c1096dd821c33dfd2c44fb6a50377e9c77715ee865988.js" integrity="sha512-c4xGKJ2nWyxcpJ9ZtHg0F&#43;XyzC5nDYnfZ/SwAJWNMHCByxRgrKVZdoNsEJbdghwz39LET7alA3fpx3cV7oZZiA==" crossorigin="anonymous" defer></script>
+  <script src="/js/vendor/katex/dist/katex.min.6207af9f0d2b8df64eabb484393f16d1ed6ba7bd86a20e21fb65572bad027a2e84df88cc95c110f6b5c271ca1a60e7840624ac155224ae497377f6d83f90bec1.js" integrity="sha512-Ygevnw0rjfZOq7SEOT8W0e1rp72Gog4h&#43;2VXK60Cei6E34jMlcEQ9rXCccoaYOeEBiSsFVIkrklzd/bYP5C&#43;wQ==" crossorigin="anonymous" defer></script>
+    <script src="/js/vendor/katex/dist/contrib/auto-render.min.bc779bab10cdc862f139e7cd6255a8f021bc483db2b7bc6d553238fb220e937dbe5cd511100d2ab764ee5d9f9092a2cdcc4e6ae109966efc18338f0b275d927d.js" integrity="sha512-vHebqxDNyGLxOefNYlWo8CG8SD2yt7xtVTI4&#43;yIOk32&#43;XNUREA0qt2TuXZ&#43;QkqLNzE5q4QmWbvwYM48LJ12SfQ==" crossorigin="anonymous" defer></script>
+  <script src="/main.min.6a5894e7a69ea4e8adaa70b08ab3923e9c0d4f266ac67099deed81ae32a905a520b8f125920f8196fa3ab515989cc108f3861195633b51f940fda10f5ecf912b.js" integrity="sha512-aliU56aepOitqnCwirOSPpwNTyZqxnCZ3u2BrjKpBaUguPElkg&#43;Blvo6tRWYnMEI84YRlWM7UflA/aEPXs&#43;RKw==" crossorigin="anonymous" defer></script>
+  <script src="https://ubunchuu-truong-us.github.io/index.min.e0aaa588a3eff580324beff532e5eeb2b79a1b6e98a50565481c3b82a2184bd27afa93dcb3a26f01eeba1e3284a0f38f50df513cbb057359fcce9ef83446f683.js" integrity="sha512-4KqliKPv9YAyS&#43;/1MuXusreaG26YpQVlSBw7gqIYS9J6&#43;pPcs6JvAe66HjKEoPOPUN9RPLsFc1n8zp74NEb2gw==" crossorigin="anonymous" defer></script>
+  
+    <div class="d-flex fixed-bottom pb-4 pb-lg-5 pe-4 pe-lg-5">
+      <a id="toTop" href="#" class="btn btn-outline-primary rounded-circle ms-auto p-2"><span class="visually-hidden">Top</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg></a>
+    </div>
+    
+  </body>
+</html>
