@@ -14,7 +14,7 @@ Chào mừng bạn đến với bài viết đầu tiên, mở đầu tutorial c
 Mình là Tux, người đồng hành cùng bạn trong cuộc hành trình này.
 Hãy cùng bắt đầu với một chút flashback về lịch sử đằng sau sự hình thành linux.
 
-## 1. Tổng quan về linux
+## 1️⃣ Lịch sử hình thành:
 
 Năm 1969, Ken Thompson và Dennis Ritchie tại viện nghiên cứu Bell (đại học MIT) đã phát triển hệ điều hành UNIX.
 Ban đầu, UNIX được viết bằng assembly.
@@ -24,10 +24,7 @@ Suốt khoảng thời gian đó, rất nhiều hệ điều hành như BSD, MIN
 Tuy nhiên, chúng đều không quá thành công.
 Điểm chung của chúng là đều thiếu một nhân (kernel) thống nhất.
 
-**Nhân** (kernel) là thành phần quan trọng nhất của một hệ điều hành.
-Nhân cho phép phần cứng "nói chuyện" được với phần mềm.
-Ngoài ra, nó còn có thể làm được ti tỉ thứ khác, nhưng chúng ta sẽ tìm hiểu sau.
-Còn giờ, bạn chỉ cần biết nhân điều khiển hầu như mọi thứ trong hệ thống của bạn.
+> **Nhân** (kernel) là thành phần quan trọng nhất của một hệ điều hành. Nhân cho phép phần cứng "nói chuyện" được với phần mềm. Ngoài ra, nó còn có thể làm được ti tỉ thứ khác, nhưng chúng ta sẽ tìm hiểu sau. Còn giờ, bạn chỉ cần biết nhân điều khiển hầu như mọi thứ trong hệ thống của bạn.
 
 ![](debian.PNG)
 
@@ -45,6 +42,8 @@ Linux là hệ điều hành mã nguồn mở (open-source) ra đời từ kho�
 
 Linux được xuất bản dưới giấy phép công cộng GNU, giúp hạn chế hoạt động về thương mại. Ông từng tuyên bố, "Phát hành Linux theo GNU chắc chắn là điều tốt nhất tôi từng làm." Nếu không thì chúng ta đã không có một hệ điều hành tuyệt vời với đông đảo lập trình viên ưa thích như hôm nay.
 
+## 2️⃣ Tổng quan về Linux:
+
 Cấu trúc hệ điều hành Linux tóm gọn lại chỉ gồm 3 phần chính:
 
 - **Kernel**: hay được gọi là phần nhân, vì đây là phần quan trọng nhất trong máy tính bởi chứa đựng các module hay các package để quản lý, giao tiếp giữa phần cứng máy tính và ứng dụng.
@@ -53,4 +52,4 @@ Cấu trúc hệ điều hành Linux tóm gọn lại chỉ gồm 3 phần chín
 
 ![](pie.png)
 
-**Ghi nhớ**: Linux là hệ điều hành open-source, đa số các thao tác thực hiện trên linux sẽ thông qua các câu lệnh gọn gàng và nhanh trên terminal.
+💡 **Ghi nhớ**: Linux là hệ điều hành open-source, đa số các thao tác thực hiện trên linux sẽ thông qua các câu lệnh gọn gàng và nhanh trên terminal.
