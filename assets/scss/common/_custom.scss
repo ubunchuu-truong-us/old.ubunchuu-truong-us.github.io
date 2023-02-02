@@ -36,7 +36,7 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 
-/** Bold */ 
+/** Bold */
 @font-face {
   font-family: "San Francisco";
   font-weight: 700;
@@ -45,5 +45,9 @@
 
 /** Use it */
 body {
-  font-family: "San Francisco", sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
 }
