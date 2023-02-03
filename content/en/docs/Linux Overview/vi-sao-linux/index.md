@@ -7,7 +7,7 @@ lastmod: 2022-12-24
 draft: false
 images: [./compile-time.png, ./rice-sample.jpg]
 contributors: ["thangbuiq"]
-weight: 110
+weight: 120
 ---
 
 ### 1. Thiên đường mã nguồn mở
