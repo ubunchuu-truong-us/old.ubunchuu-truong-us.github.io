@@ -12,20 +12,9 @@ weight: 130
 
 > Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.
 
-### ⚙️ Cài đặt
-
-=======
-weight: 130
-
----
-
-Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.
-
 <https://youtu.be/o14-gCNRwR8>
 
-### Cài đặt
-
-> > > > > > > b5dc2ba8 (Update format)
+### ⚙️ Cài đặt
 
 Để cài Windows, chỉ cần một USB Boot có chứa Windows là có thể cài được. Windows chạy được với hầu hết các loại phần cứng, nhưng yêu cầu tối thiểu 1 GHz CPU, RAM từ 1-2 Gb và ổ cứng 15 Gb. Sau đó, quy trình cài đặt chỉ cần "bấm" và "chọn".
 
