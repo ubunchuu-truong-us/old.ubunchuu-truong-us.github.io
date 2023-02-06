@@ -13,27 +13,18 @@
       
       <guid>https://ubunchuu-truong-us.github.io/docs/gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-linux/</guid>
       <description>Chào mừng bạn đến với bài viết đầu tiên, mở đầu tutorial của chúng mình. Mình là Tux, người đồng hành cùng bạn trong cuộc hành trình này. Hãy cùng bắt đầu với một chút flashback về lịch sử đằng sau sự hình thành linux.
-1. Tổng quan về linux #Năm 1969, Ken Thompson và Dennis Ritchie tại viện nghiên cứu Bell (đại học MIT) đã phát triển hệ điều hành UNIX.</description>
+1️⃣ Lịch sử hình thành #Năm 1969, Ken Thompson và Dennis Ritchie tại viện nghiên cứu Bell (đại học MIT) đã phát triển hệ điều hành UNIX.</description>
     </item>
     
     <item>
-      <title>So sánh Linux vói các hệ điều hành khác</title>
-      <link>https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/</link>
+      <title>So sánh Linux với các hệ điều hành khác</title>
+      <link>https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%E1%BB%9Bi-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%C3%B3i-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/</guid>
+      <guid>https://ubunchuu-truong-us.github.io/docs/so-s%C3%A1nh-linux-v%E1%BB%9Bi-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/</guid>
       <description>Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.
-https://youtu.be/o14-gCNRwR8
-Cài đặt #Để cài Windows, chỉ cần một USB Boot có chứa Windows là có thể cài được. Windows chạy được với hầu hết các loại phần cứng, nhưng yêu cầu tối thiểu 1 GHz CPU, RAM từ 1-2 Gb và ổ cứng 15 Gb. Sau đó, quy trình cài đặt chỉ cần &amp;ldquo;bấm&amp;rdquo; và &amp;ldquo;chọn&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Linux và các hệ điều hành khác</title>
-      <link>https://ubunchuu-truong-us.github.io/docs/linux-v%C3%A0-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/</link>
-      <pubDate>Sat, 24 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubunchuu-truong-us.github.io/docs/linux-v%C3%A0-c%C3%A1c-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-kh%C3%A1c/</guid>
-      <description></description>
+ https://youtu.be/o14-gCNRwR8
+⚙️ Cài đặt #Để cài Windows, chỉ cần một USB Boot có chứa Windows là có thể cài được. Windows chạy được với hầu hết các loại phần cứng, nhưng yêu cầu tối thiểu 1 GHz CPU, RAM từ 1-2 Gb và ổ cứng 15 Gb. Sau đó, quy trình cài đặt chỉ cần &amp;ldquo;bấm&amp;rdquo; và &amp;ldquo;chọn&amp;rdquo;.</description>
     </item>
     
   </channel>
