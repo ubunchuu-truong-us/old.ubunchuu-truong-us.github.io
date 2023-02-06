@@ -6,6 +6,9 @@ date: 2022-12-24
 lastmod: 2022-12-24
 draft: false
 images: [./debian.PNG, ./pie.png]
+menu:
+  docs:
+    parent: "Linux Overview"
 contributors: ["lelouvincx"]
 weight: 110
 ---

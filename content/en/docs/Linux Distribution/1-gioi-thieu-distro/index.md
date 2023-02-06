@@ -2,14 +2,15 @@
 title: "Tìm hiểu chung về Linux Distro"
 description: "Tìm hiểu chung về Linux Distro"
 lead: ""
-date: 2023-02-06T23:03:13+07:00
-lastmod: 2023-02-06T23:03:13+07:00
+date: 2023-02-06
+lastmod: 2023-02-06
 draft: false
 images: []
 menu:
   docs:
     parent: "Linux Distribution"
 weight: 210
+contributors: ["thangbuiq", "chimlun0910"]
 toc: true
 ---
 

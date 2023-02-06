@@ -6,6 +6,9 @@ date: 2023-02-01
 lastmod: 2023-02-01
 draft: false
 images: ""
+menu:
+  docs:
+    parent: "Linux Overview"
 contributors: ["lelouvincx"]
 weight: 130
 ---
