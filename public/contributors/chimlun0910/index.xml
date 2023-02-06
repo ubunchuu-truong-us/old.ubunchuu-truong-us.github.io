@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chimlun0910 on </title>
+    <link>https://ubunchuu-truong-us.github.io/contributors/chimlun0910/</link>
+    <description>Recent content in chimlun0910 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ubunchuu-truong-us.github.io/contributors/chimlun0910/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tìm hiểu chung về Linux Distro</title>
+      <link>https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/</guid>
+      <description>Distro là từ viết tắt của linux distribution, có tên tiếng việt là phân phối của Linux.
+ 1. Khái niệm Distro # Một bản phân phối của linux (hay distro) là một hệ điều hành được lập trình từ những tùy biến dựa trên nhân Linux. Những tùy biến này có thể giải thích đơn giản là sự thay đổi trong cách đóng gói packages bên trong hệ điều hành cùng với nhân Linux, cùng các công cụ GNU, thư viện cũng như tiện ích, ứng dụng khác nhau cho phù hợp với nhu cầu người sử dụng.</description>
+    </item>
+    
+  </channel>
+</rss>

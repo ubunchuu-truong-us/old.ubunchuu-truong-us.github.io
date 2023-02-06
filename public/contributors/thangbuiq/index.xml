@@ -5,7 +5,7 @@
     <link>https://ubunchuu-truong-us.github.io/contributors/thangbuiq/</link>
     <description>Recent content in thangbuiq on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ubunchuu-truong-us.github.io/contributors/thangbuiq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ubunchuu-truong-us.github.io/contributors/thangbuiq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vì sao nên sử dụng Linux</title>
       <link>https://ubunchuu-truong-us.github.io/docs/v%C3%AC-sao-n%C3%AAn-s%E1%BB%AD-d%E1%BB%A5ng-linux/</link>
@@ -13,6 +13,16 @@
       
       <guid>https://ubunchuu-truong-us.github.io/docs/v%C3%AC-sao-n%C3%AAn-s%E1%BB%AD-d%E1%BB%A5ng-linux/</guid>
       <description>1. Thiên đường mã nguồn mở #Khi bạn quá mệt với các yêu cầu trả tiền bản quyền các ứng dụng, hay thậm chí là bản quyền cho chính hệ điều hành của bạn? Linux là dành cho bạn, nơi mà mọi người chỉ cần clone về mọi thứ một cách miễn phí. Ngoài ra nó còn có điểm cộng nữa là bạn có thể xem được bên trong source của chúng có những gì, thông qua đó, ta có thể dễ dàng tùy biến chúng.</description>
+    </item>
+    
+    <item>
+      <title>Tìm hiểu chung về Linux Distro</title>
+      <link>https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/</guid>
+      <description>Distro là từ viết tắt của linux distribution, có tên tiếng việt là phân phối của Linux.
+ 1. Khái niệm Distro # Một bản phân phối của linux (hay distro) là một hệ điều hành được lập trình từ những tùy biến dựa trên nhân Linux. Những tùy biến này có thể giải thích đơn giản là sự thay đổi trong cách đóng gói packages bên trong hệ điều hành cùng với nhân Linux, cùng các công cụ GNU, thư viện cũng như tiện ích, ứng dụng khác nhau cho phù hợp với nhu cầu người sử dụng.</description>
     </item>
     
   </channel>
