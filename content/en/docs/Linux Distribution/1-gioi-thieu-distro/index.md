@@ -82,7 +82,7 @@ Linux hiện đang được chia làm các nhánh chính như sau:
 
 > Khám phá thêm về **CentOS** [tại đây](https://www.centos.org/).
 
-### **Một số bản phân phối khác**
+### Một số bản phân phối khác
 
 - **Slackware**: là nhánh đầu tiên được phân phối trên nhân linux. Slackware không có trình quản lý packages và tất cả phần mềm được biên dịch bởi quản trị viên hệ thống hoặc người dùng bình thường của hệ thống.
 
