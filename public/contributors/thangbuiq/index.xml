@@ -5,7 +5,7 @@
     <link>https://ubunchuu-truong-us.github.io/contributors/thangbuiq/</link>
     <description>Recent content in thangbuiq on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ubunchuu-truong-us.github.io/contributors/thangbuiq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ubunchuu-truong-us.github.io/contributors/thangbuiq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vì sao nên sử dụng Linux</title>
       <link>https://ubunchuu-truong-us.github.io/docs/v%C3%AC-sao-n%C3%AAn-s%E1%BB%AD-d%E1%BB%A5ng-linux/</link>
@@ -23,6 +23,15 @@
       <guid>https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/</guid>
       <description>Distro là từ viết tắt của linux distribution, có tên tiếng việt là phân phối của Linux.
  1. Khái niệm Distro # Một bản phân phối của linux (hay distro) là một hệ điều hành được lập trình từ những tùy biến dựa trên nhân Linux. Những tùy biến này có thể giải thích đơn giản là sự thay đổi trong cách đóng gói packages bên trong hệ điều hành cùng với nhân Linux, cùng các công cụ GNU, thư viện cũng như tiện ích, ứng dụng khác nhau cho phù hợp với nhu cầu người sử dụng.</description>
+    </item>
+    
+    <item>
+      <title>Chọn ra Distro phù hợp nhất với mình</title>
+      <link>https://ubunchuu-truong-us.github.io/docs/ch%E1%BB%8Dn-ra-distro-ph%C3%B9-h%E1%BB%A3p-nh%E1%BA%A5t-v%E1%BB%9Bi-m%C3%ACnh/</link>
+      <pubDate>Tue, 21 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubunchuu-truong-us.github.io/docs/ch%E1%BB%8Dn-ra-distro-ph%C3%B9-h%E1%BB%A3p-nh%E1%BA%A5t-v%E1%BB%9Bi-m%C3%ACnh/</guid>
+      <description>Theo số liệu thống kê từ trang truelist.co (số liệu thống kê tính tới ngày 02/02/2023), hiện nay số lượng các distros Linux đang hoạt động vào khoảng hơn 600 distros. Một số distros được sử dụng phổ biến nhất hiện nay là Debian, Ubuntu, Manjaro, Arch Linux, Kali Linux, và còn nhiều hơn thế nữa. Tuy nhiên, để chọn ra được một distro phù hợp với tính chất công việc, nhu cầu sử dụng của bạn thì có lẽ là một việc không hề dễ dàng và tốn nhiều thời gian trải nghiệm.</description>
     </item>
     
   </channel>
