@@ -10,8 +10,6 @@ contributors: ["lelouvincx, thangbuiq, chimlun0910"]
 weight: 320
 ---
 
-# Cài đặt Ubuntu Dual-boot với Windows
-
 ## :one: Vì sao chọn Ubuntu làm distro khởi đầu?
 ### 1. Ubuntu hoàn toàn miễn phí và có thể dễ dàng cài đặt trên mọi cấu hình:
 Khác với Windows và MacOS, Ubuntu không yêu cầu một khoản phí bất kỳ nào để có thể cài đặt và sử dụng hệ điều hành. 
