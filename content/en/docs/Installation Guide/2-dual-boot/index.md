@@ -1,5 +1,5 @@
 ---
-title: "Cài đặt Ubuntu cho người dùng song song"
+title: "Cài đặt Ubuntu cho người dùng song song với Windows"
 description: ""
 lead: ""
 date: 2022-12-24
