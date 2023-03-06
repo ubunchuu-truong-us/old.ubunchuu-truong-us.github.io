@@ -103,7 +103,7 @@ Sau khi đã hoàn thành xong việc tạo USB boot chứa bộ cài Ubuntu, Ub
 **Bước 7:** (Optional - chỉ dành cho những bạn chọn **"Something else"**)
 > Xin mời skip bước này và xem đến bước 8 nếu bạn không muốn chia phân vùng tùy thích theo yêu cầu.
 
-Các bạn xem qua hưỡng dẫn chi tiết chia các phân vùng con cho riêng Ubuntu ở bài viết sau: <link>
+Các bạn xem qua hưỡng dẫn chi tiết chia các phân vùng con cho riêng Ubuntu ở bước 7 - phần 4 của bài viết sau: [Bước 7 - Phần 4 của Post: Cài đặt Ubuntu Dual-boot](https://ubunchuu-truong-us.github.io/docs/c%C3%A0i-%C4%91%E1%BA%B7t-ubuntu-cho-ng%C6%B0%E1%BB%9Di-d%C3%B9ng-song-song-v%E1%BB%9Bi-windows/#4-ti%E1%BA%BFn-h%C3%A0nh-c%C3%A0i-%C4%91%E1%BA%B7t-ubuntu)
 
 
 **Bước 8:** Thiết lập vị trí và múi giờ ở nơi chúng ta đang sinh sống. Chọn **"Continue"**.
