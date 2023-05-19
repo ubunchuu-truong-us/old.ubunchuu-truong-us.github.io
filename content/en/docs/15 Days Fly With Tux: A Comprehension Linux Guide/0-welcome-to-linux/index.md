@@ -10,8 +10,6 @@ contributors: ["lelouvincx"]
 weight: 410
 ---
 
-# Chào mừng bạn đến với Linux
-
 Xin chào, lại là Tux đây! Sau khi cài đặt thành công Ubuntu, bước tiếp theo chúng ta cần làm là thiết lập Ubuntu để có thể sử dụng. Cùng mình đi tiếp những bước cài đặt nhé!
 
 ## 1. Làm quen với môi trường dòng lệnh (CLI)
