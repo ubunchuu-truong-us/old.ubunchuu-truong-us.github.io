@@ -143,7 +143,8 @@ sudo apt install ubunchuu
 
 Truy cập trang download của R Studio và follow theo hướng dẫn trên trang: https://posit.co/download/rstudio-desktop/
 
-### Challenge: Cài đặt browser ưa thích của bạn (edge/chrome/brave/opera)
+### Challenge: Cài đặt browser ưa thích của bạn 
+*E.g:* edge/chrome/brave/opera
 
 Dựa theo kiến thức ở trên, hãy thử tự cài browser ưa thích của bạn vào máy nhé! Nếu gặp bất cứ khó khăn nào, hãy liên hệ với **Ubunchuu** qua messenger.
 
@@ -174,31 +175,3 @@ Hiện tại không có phiên bản cho Linux/Ubuntu. Nhưng bạn có thể s�
 ### Zalo
 
 Hiện tại không có phiên bản Zalo cho Linux, bạn có thể dùng Zalo web để thay thế.
-
-## 4. Thiết lập môi trường coding
-
-### IDE (VSCode/Sublime/Jetbrains/Vim)
-
-### C++
-
-### Python
-
-### Docker
-
-### Databases (MySQL, PostgreSQL, SQLite, Redis)
-
-### SSH
-
-### Asdf
-
-### Javascript
-
-### R
-
-### Java
-
-### Ruby
-
-### Rust
-
-### PHP
