@@ -141,6 +141,10 @@ sudo apt install ubunchuu
 
 ![](https://i.imgur.com/g48j4ao.png)
 
+### R và R Studio
+
+Truy cập trang download của R Studio và follow theo hướng dẫn trên trang: https://posit.co/download/rstudio-desktop/
+
 ### Challenge: Cài đặt browser ưa thích của bạn (edge/chrome/brave/opera)
 
 Dựa theo kiến thức ở trên, hãy thử tự cài browser ưa thích của bạn vào máy nhé! Nếu gặp bất cứ khó khăn nào, hãy liên hệ với **Ubunchuu** qua messenger.
@@ -157,9 +161,9 @@ Link download WPS: https://www.wps.com/office/linux/
 
 ### Matlab, R Studio
 
-Matlab và R Studio không hỗ trợ Linux, nhưng bạn có thể sử dụng online ở những link sau:
+Matlab không hỗ trợ Linux, nhưng bạn có thể sử dụng online ở nlink sau:
 - Matlab: https://matlab.mathworks.com/
-- R: https://posit.cloud/
+- R Studio: https://posit.cloud/ (có thể sử dụng R Studio bản online nếu thấy package R Studio bên trên khá nặng)
 
 ### Maple
 
