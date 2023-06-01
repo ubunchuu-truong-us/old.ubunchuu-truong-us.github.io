@@ -6,10 +6,7 @@ date: 2023-02-06
 lastmod: 2023-02-06
 draft: false
 images: []
-menu:
-  docs:
-    parent: "Linux Distribution"
-weight: 210
+weight: 201
 contributors: ["thangbuiq", "chimlun0910"]
 toc: true
 ---

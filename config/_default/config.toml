@@ -3,9 +3,9 @@ canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
-enableGitInfo = false
+enableGitInfo = true
 enableRobotsTXT = true
-paginate = 7
+paginate = 10
 rssLimit = 10
 
 # Multilingual
@@ -85,5 +85,5 @@ rel  = "sitemap"
   anchor = 'Smart'
   bgColor = '#ffffff'
   hint = 'photo'
-  quality = 75
+  quality = 100
   resampleFilter = 'Box'

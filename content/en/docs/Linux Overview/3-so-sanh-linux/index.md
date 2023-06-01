@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "Linux Overview"
 contributors: ["lelouvincx"]
-weight: 130
+weight: 103
 ---
 
 > Chúng ta hãy cùng so sánh Linux với hai hệ điều hành phổ biến là Windows và MacOS.

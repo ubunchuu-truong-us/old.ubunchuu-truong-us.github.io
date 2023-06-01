@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "Linux Distribution"
-weight: 220
+weight: 202
 contributors: ["thangbuiq", "chimlun0910"]
 toc: true
 ---

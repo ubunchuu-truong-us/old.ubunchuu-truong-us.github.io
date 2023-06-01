@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "Linux Overview"
 contributors: ["lelouvincx"]
-weight: 110
+weight: 101
 ---
 
 Chào mừng bạn đến với bài viết đầu tiên, mở đầu tutorial của chúng mình.

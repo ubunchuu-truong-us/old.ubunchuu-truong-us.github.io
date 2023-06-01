@@ -7,7 +7,7 @@ titleAddition = "Linux made easy."
 description = "Ubunchuu Trường Ú là một dự án do một nhóm sinh viên trường KHTN lập nên, mong muốn cung cấp kiến thức bổ ích về linux và giúp các bạn học sinh, sinh viên bước đầu tiếp cận với hệ điều hành linux."
 
 ## Documentation
-# docsVersion = "0.3"
+docsVersion = "0.5"
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu = {align = "l", show_logo = true}
@@ -29,7 +29,7 @@ schemaName = "Ubunchuu Trường Ú"
 # schemaAuthor = "Henk Verlinde"
 # schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 # schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-# schemaAuthorGitHub = "https://github.com/ubunchuu-truong-us"
+schemaAuthorGitHub = "https://github.com/ubunchuu-truong-us"
 schemaLocale = "en-US"
 schemaLogo = "images/linux-transparent.png"
 schemaLogoWidth = 512
@@ -40,10 +40,10 @@ schemaImageHeight = 640
 # schemaTwitter = "https://twitter.com/getdoks"
 # schemaLinkedIn = ""
 schemaGitHub = "https://github.com/ubunchuu-truong-us"
-schemaSection = "docs"
+# schemaSection = ["docs"]
 
 ## Sitelinks Search Box
-siteLinksSearchBox = false
+siteLinksSearchBox = true
 
 ## Chrome Browser
 themeColor = "#fff"
@@ -64,27 +64,27 @@ singleSize = false
 imageAddClass = "img-fluid lazyload blur-up"
 
 ### Image template
-defaultImage = "linux-transparent.png" # put in `./assets/images/`
+defaultImage = "coming-soon.jpg" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
 footer = "Powered by <a class=\"text-muted\" href=\"https://www.github.com/\">Github Pages</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright © 2022 Ubunchuu Trường Ú"
+copyRight = "Copyright © 2023 Ubunchuu Trường Ú"
 
 # Alert
 alert = false
 alertDismissable = true
 # alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Ubunchuu Trường Ú đã quay trở lại sau kỳ thi cuối kỳ!"
+alertText = "Series mới: 15 Days Fly With Tux 🐧"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
 repoHost = "GitHub"
 #repoHost = "Gitea"
 docsRepo = "https://github.com/ubunchuu-truong-us/ubunchuu-truong-us.github.io"
-docsRepoBranch = "master"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
 lastMod = false
@@ -101,7 +101,7 @@ lastMod = false
   searchSectionsIndex = []
   darkMode = true
   bootStrapJs = true
-  breadCrumb = false
+  breadCrumb = true
   highLight = true
   kaTex = true
   multilingualMode = false
@@ -114,4 +114,4 @@ lastMod = false
 [menu]
   [menu.section]
     auto = true
-    collapsibleSidebar = true
+    collapsibleSidebar = false

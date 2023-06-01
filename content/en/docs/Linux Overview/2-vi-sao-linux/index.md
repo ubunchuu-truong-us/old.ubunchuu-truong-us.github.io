@@ -10,7 +10,7 @@ menu:
   docs:
     parent: "Linux Overview"
 contributors: ["thangbuiq"]
-weight: 120
+weight: 102
 ---
 
 ### 1. Thiên đường mã nguồn mở

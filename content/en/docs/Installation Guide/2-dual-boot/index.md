@@ -7,7 +7,7 @@ lastmod: 2022-12-24
 draft: false
 images: []
 contributors: ["lelouvincx, thangbuiq, chimlun0910"]
-weight: 320
+weight: 302
 ---
 
 ## :one: Vì sao chọn Ubuntu làm distro khởi đầu?
