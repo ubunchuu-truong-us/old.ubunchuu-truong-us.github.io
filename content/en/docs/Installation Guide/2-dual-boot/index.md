@@ -24,7 +24,7 @@ Nếu bạn là một dân IT hoặc là một người yêu thích việc gõ c
 Nghe có vẻ phi lý khi mà Ubuntu là một hệ điều hành miễn phí, mã nguồn mở nhưng lại có tính bảo mật cao? Ubuntu nói riêng và Linux nói chung đều sở hữu quyền "root", điều này cho phép bạn thao tác với hệ thống ở quyền hạn cao nhất (tương đương với Administrator bên Windows). Tuy nhiên, mặc định người dùng hệ thống không được cấp quyền này và nếu có cuộc tấn công nào vào máy tính nhưng lại không có quyền "root" thì cũng phải là 1 điều gì đó quan ngại.
 >Nếu Ubuntu chưa phải là sự lựa chọn phù hợp của bạn, hãy tham khảo những Distro khác mà tụi mình đã lên bài ở đây nhé: [Tìm hiểu chung về Linux Distro](https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/?fbclid=IwAR3LMmxrlqoG5AMh1DWm2bN2k9Nj-_AkfizHm9XWwIil-WdJeP4rWib02a8)
 
-## :two: Các bước chuẩn bị
+## 2. Các bước chuẩn bị
 > Ubuntu yêu cầu thiết bị của bạn đáp ứng những yêu cầu sau:
 > - [x] 2 GHz dual-core processor hoặc hơn.
 > - [x] Tối thiếu 4 GB RAM (Ubunchu khuyến khích thiết bị của các bạn nên có ít nhất 8 GB RAM để mọi tác vụ của hệ thống trở nên mượt mà).
@@ -67,7 +67,7 @@ Dung lượng của một [Linux Distro](https://ubunchuu-truong-us.github.io/do
 ![](https://i.imgur.com/udeLhmq.png)
 
 
-## :three: Chia phân vùng trên Windows để cài đặt Ubuntu
+## 3. Chia phân vùng trên Windows để cài đặt Ubuntu
 >Note: Nếu máy tính bạn đủ khả năng để phân vùng (cho phép khả năng partition tối đa) thì trước hết ta hãy sử dụng công cụ có sẵn trong máy tính là [Disk Management](https://learn.microsoft.com/en-us/windows-server/storage/disk-management/overview-of-disk-management) để đạt hiệu quả và độ an toàn nhé.
 ### 1. Kiểm tra dung lượng máy tính và nhu cầu của mình
 Với người mới bắt đầu hoặc muốn trải nghiệm Ubuntu song song với hệ điều hành Windows, Ubunchuu khuyến khích các bạn nên chia phân vùng tầm 60 đến 100GB cho Ubuntu và thực hiện [Dual-boot](https://en.wikipedia.org/wiki/Multi-booting). Điều này giúp cho Ubuntu có đủ dung lượng hệ thống để thực hiện các tác vụ, giúp các bạn có thể sử dụng Ubuntu một cách thoải mái nhất.
@@ -167,7 +167,7 @@ Nhấn **"Ok""**
 
 >Sau khi khởi động lại máy tính, khi vào Disk Management kiểm tra lại bạn sẽ thấy có một phân vùng mới với dung lượng bằng chính dung lượng mà bạn đã chia nhỏ (như mình thì là 50GB).
 
-## :four: Tiến hành cài đặt Ubuntu
+## 4. Tiến hành cài đặt Ubuntu
 Sau khi đã hoàn thành xong việc tạo USB boot chứa bộ cài Ubuntu, Ubunchuu sẽ đưa các bạn đến với những bước cài đặt chính.
 
 **Bước 1:** Khởi động lại thiết bị, cắm USB và tiến hành truy cập vào Menu Boot.

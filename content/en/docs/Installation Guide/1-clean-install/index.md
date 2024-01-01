@@ -24,7 +24,7 @@ Nếu bạn là một dân IT hoặc là một người yêu thích việc gõ c
 Nghe có vẻ phi lý khi mà Ubuntu là một hệ điều hành miễn phí, mã nguồn mở nhưng lại có tính bảo mật cao? Ubuntu nói riêng và Linux nói chung đều sở hữu quyền "root", điều này cho phép bạn thao tác với hệ thống ở quyền hạn cao nhất (tương đương với Administrator bên Windows). Tuy nhiên, mặc định người dùng hệ thống không được cấp quyền này và nếu có cuộc tấn công nào vào máy tính nhưng lại không có quyền "root" thì cũng phải là 1 điều gì đó quan ngại.
 >Nếu Ubuntu chưa phải là sự lựa chọn phù hợp của bạn, hãy tham khảo những Distro khác mà tụi mình đã lên bài ở đây nhé: [Tìm hiểu chung về Linux Distro](https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/?fbclid=IwAR3LMmxrlqoG5AMh1DWm2bN2k9Nj-_AkfizHm9XWwIil-WdJeP4rWib02a8)
 
-## :two: Các bước chuẩn bị
+## 2. Các bước chuẩn bị
 > Ubuntu yêu cầu thiết bị của bạn đáp ứng những yêu cầu sau:
 > - [x] 2 GHz dual-core processor hoặc hơn.
 > - [x] Tối thiếu 4 GB RAM (Ubunchu khuyến khích thiết bị của các bạn nên có ít nhất 8 GB RAM để mọi tác vụ của hệ thống trở nên mượt mà).
@@ -66,7 +66,7 @@ Dung lượng của một [Linux Distro](https://ubunchuu-truong-us.github.io/do
 
 ![](https://i.imgur.com/udeLhmq.png)
 
-## :three: Tiến hành cài đặt Ubuntu
+## 3. Tiến hành cài đặt Ubuntu
 Sau khi đã hoàn thành xong việc tạo USB boot chứa bộ cài Ubuntu, Ubunchuu sẽ đưa các bạn đến với những bước cài đặt chính.
 
 **Bước 1:** Khởi động lại thiết bị, cắm USB và tiến hành truy cập vào Menu Boot.
