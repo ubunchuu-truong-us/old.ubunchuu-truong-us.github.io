@@ -10,17 +10,18 @@ contributors: ["lelouvincx, thangbuiq, chimlun0910"]
 weight: 302
 ---
 
-### 1. Ubuntu hoàn toàn miễn phí và có thể dễ dàng cài đặt trên mọi cấu hình:
+## 1. Giới thiệu về Ubuntu
+### Ubuntu hoàn toàn miễn phí và có thể dễ dàng cài đặt trên mọi cấu hình:
 Khác với Windows và MacOS, Ubuntu không yêu cầu một khoản phí bất kỳ nào để có thể cài đặt và sử dụng hệ điều hành. 
 
 Việc cài đặt Ubuntu theo tụi mình đánh giá là đơn giản hơn việc cài đặt hệ điều hành Windows khá nhiều. Các bạn chỉ cần có vốn tiếng anh nhất định và sự hiểu biết đơn giản về máy tính.
-### 2. Ubuntu đáp ứng nhu cầu về cá nhân hóa:
+### Ubuntu đáp ứng nhu cầu về cá nhân hóa:
 Ubuntu có tính cá nhân hóa cao hơn khi so sánh với bất kỳ hệ điều hành phổ biến hiện nay (Windows, MacOS). Bạn có thể tùy chỉnh ở nhiều khía cạnh liên quan đến UI để phục vụ cho nhu cầu cá nhân hóa của bản thân.
 >Nếu giao diện mặc định của Ubuntu đã quá nhàm chán, Ubunchuu khuyến khích các bạn tìm hiểu về chủ đề này. UI Customization ở Linux thường không quá ảnh hưởng quá nhiều đến hiệu năng của máy (như ngốn RAM, ăn CPU, ..)
 >Trong tương lai, Ubunchuu sẽ dành một bài viết riêng về chủ đề này. Tuy nhiên, nếu các bạn muốn tìm hiểu trước, tụi mình sẽ để đường link tham khảo: [LinuxScoop](https://www.youtube.com/@linuxscoop) - một trong những kênh youtube nổi tiếng về Linux UI Customization.
-### 3. Một lựa chọn tốt cho việc lập trình: 
+### Một lựa chọn tốt cho việc lập trình: 
 Nếu bạn là một dân IT hoặc là một người yêu thích việc gõ code, hoặc cho dù là không đi nữa. Nếu công việc của bạn có liên quan đến việc lập trình, Ubuntu chính là một lựa chọn tốt bởi Ubuntu cung cấp cho bạn một Terminal với sức mạnh "tuyệt đối". Đối với nhiều lập trình viên, việc thao tác với chuột thường khá ít và thao tác dòng lệnh (command line) trên Linux phải gọi là rất "đã" và tốt hơn Windows rất nhiều. Hơn nữa, hầu hết các ngôn ngữ lập trình đều hỗ trợ [CLI (Command Line Interface)](https://www.w3schools.com/whatis/whatis_cli.asp) điều này là cần thiết với các lập trình viên.
-### 4. Ubuntu có tính bảo mật cao:
+### Ubuntu có tính bảo mật cao:
 Nghe có vẻ phi lý khi mà Ubuntu là một hệ điều hành miễn phí, mã nguồn mở nhưng lại có tính bảo mật cao? Ubuntu nói riêng và Linux nói chung đều sở hữu quyền "root", điều này cho phép bạn thao tác với hệ thống ở quyền hạn cao nhất (tương đương với Administrator bên Windows). Tuy nhiên, mặc định người dùng hệ thống không được cấp quyền này và nếu có cuộc tấn công nào vào máy tính nhưng lại không có quyền "root" thì cũng phải là 1 điều gì đó quan ngại.
 >Nếu Ubuntu chưa phải là sự lựa chọn phù hợp của bạn, hãy tham khảo những Distro khác mà tụi mình đã lên bài ở đây nhé: [Tìm hiểu chung về Linux Distro](https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/?fbclid=IwAR3LMmxrlqoG5AMh1DWm2bN2k9Nj-_AkfizHm9XWwIil-WdJeP4rWib02a8)
 
@@ -33,15 +34,15 @@ Nghe có vẻ phi lý khi mà Ubuntu là một hệ điều hành miễn phí, m
 > - [x] USB Boot chứa bộ cài Ubuntu.
 
 
-### 1. Backup dữ liệu
+### Backup dữ liệu
 Việc [Backup](https://en.wikipedia.org/wiki/Backup) tất cả dữ liệu trong máy của bạn trước khi cài đặt Ubuntu là một điều hết sức cần thiết vì trong quá trình cài đặt luôn có xác suất rất nhỏ xảy ra những lỗi liên quan đến hệ điều hành và phần cứng. 
 Ubunchuu khuyến khích các bạn nên Backup dữ liệu của mình sang một nơi an toàn như [Google Drive](https://www.google.com/intl/vi_VN/drive/), [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage), [Dropbox](https://www.dropbox.com/), .. để đề phòng trường hợp mất mát dữ liệu khi cài đặt nhé.
-### 2. Ghi lại các ứng dụng cần dùng
+### Ghi lại các ứng dụng cần dùng
 Trước khi cài đặt Ubuntu, các bạn nên có một cái nhìn tổng quát lại nhu cầu và mục đích của các bạn khi sử dụng Ubuntu. Và hãy đảm bảo rằng nếu các bạn cần làm việc trên một phần mềm nào, phần mềm đó cần có tính tương thích và sẵn sàng để dùng.
 > [Tìm hiểu chung về Linux Distro](https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/?fbclid=IwAR3LMmxrlqoG5AMh1DWm2bN2k9Nj-_AkfizHm9XWwIil-WdJeP4rWib02a8)
-### 3. Lưu lại tài khoản, mật khẩu, cài đặt riêng của ứng dụng
+### Lưu lại tài khoản, mật khẩu, cài đặt riêng của ứng dụng
 Tất nhiên là chúng ta sẽ không muốn mất thời gian để thực hiện công việc "Quên mật khẩu" đâu nhỉ ? Hãy ghi nhớ những tài khoản cần thiết cho ứng dụng bạn làm việc để cho việc cài đặt, trải nghiệm tốt nhất có thể.
-### 4. Chuẩn bị USB Boot
+### Chuẩn bị USB Boot
 Dung lượng của một [Linux Distro](https://ubunchuu-truong-us.github.io/docs/t%C3%ACm-hi%E1%BB%83u-chung-v%E1%BB%81-linux-distro/?fbclid=IwAR3LMmxrlqoG5AMh1DWm2bN2k9Nj-_AkfizHm9XWwIil-WdJeP4rWib02a8) sẽ dao động trong khoảng từ dưới 1 GB cho đến trên 10 GB. Tuy vậy, một distro thông thường với hầu hết các tính năng có sẵn sẽ có dung lượng dao động từ 3 GB đến 5 GB. Ubunchuu khuyến khích các bạn nên chuẩn bị một USB có dung lượng từ 8 GB trở lên để việc tạo USB boot, cài đặt trở nên mượt mà.
 
 **Bước 1:** Các bạn cần tải phần mềm để thực hiện công việc tạo USB boot cho việc cài đặt. Ở đây, Ubunchuu đề xuất phần mềm [Rufus](https://rufus.ie/en/) - một phần mềm dễ sử dụng nhất để tạo USB khởi động trên máy tính và được đánh giá là một trong những công cụ tốt nhất. 
