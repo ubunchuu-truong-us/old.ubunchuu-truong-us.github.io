@@ -25,7 +25,7 @@ Tốc độ compile, debug bằng các ngôn ngữ lập trình trên Linux nhan
 Thích hợp hoàn hảo dành cho dân code chính hiệu.
 Ảnh dưới so sánh tốc độ compile một file C++ 1000 dòng code, sample size = 1000 lần.
 
-![](compile-time.png)
+![](static/compile-time.png)
 
 ### 3. Bảo mật an toàn
 
@@ -51,7 +51,7 @@ Yêu cầu tối thiểu của Linux (Distro: Arch):
 Linux mang lại cho người dùng khả năng "thiên biến vạn hóa" trên chính hệ điều hành của mình, từ custom giao diện (hay còn gọi là "RICE"), config terminal, config hệ thống, v.v…
 Nhưng sẽ còn tùy thuộc vào thẩm mỹ của người mình (Tux sẽ có thêm chi tiết về custom giao diện Linux chi tiết cho các bạn sau).
 
-![](rice-sample.jpg)
+![](static/rice-sample.jpg)
 
 ### 6. Cộng đồng hỗ trợ đông đảo
 

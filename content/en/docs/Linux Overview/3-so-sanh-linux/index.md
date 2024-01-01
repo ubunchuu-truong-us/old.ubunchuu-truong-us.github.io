@@ -27,11 +27,11 @@ Hiện tại, cài đặt Ubuntu đã được tinh gọn, thêm giao diện ng�
 
 Nhưng nếu bạn cài đặt một phiên bản của Linux: Arch thì đó là một câu chuyện khác. Bạn sẽ phải cài đặt lại hết từ đầu những thứ cần có của một hệ điều hành. Từ việc chia phân vùng, kết nối internet, thiết lập đồng hồ, cài đặt packages liên quan, ... tất cả thực hiện trên giao diện dòng lệnh terminal (CLI).
 
-![](image1.jpg)
+![](static/image1.jpg)
 
 > Nhưng "thương cho roi cho vọt", một khi bạn cài được Arch, bạn sẽ học được vô số kiến thức bổ ích về Linux, thứ sẽ giúp bạn rất nhiều sau này.
 
-![](image2.jpg)
+![](static/image2.jpg)
 
 ### 💯 Độ tương thích phần mềm
 
@@ -43,17 +43,17 @@ Ngoài ra hầu hết các game trên Windows sử dụng driver của riêng h�
 
 Tuy nhiên, lợi thế của Linux là các phần mềm cũ từ nhiều năm trước cũng có thể cài đặt được. Ví dụ bạn cần cài đặt phiên bản chục năm trước của một phần mềm để học tập.
 
-![](image3.jpg)
+![](static/image3.jpg)
 
 ### 🤯 Độ khó sử dụng
 
 Windows và macOS có giao diện rất thân thiện với người dùng. Tuy nhiên, chúng không phải môi trường tốt cho việc coding. MacOS được phát triển từ nhân Linux nên có một số câu lệnh tương tự Linux, nhưng thực tế, không ai chạy và quản lý server bằng macOS cả.
 
-![](image4.jpg)
+![](static/image4.jpg)
 
 Hiện tại phiên bản Ubuntu 22.10 đã được phát triển rất thân thiện với người dùng, bạn không phải mất quá nhiều thời gian để làm quen với nó.
 
-![](image5.jpg)
+![](static/image5.jpg)
 
 ### 🔐 Bảo mật và ổn định
 
@@ -73,7 +73,7 @@ Một trong những thứ mà Tux thích nhất khi dùng Linux là terminal. C�
 
 Là lập trình viên, sử dụng shell để tương tác với kernel là một trong những điều bắt buộc. Lý do vì hầu hết các server hiện nay đều là Linux, kể cả khi bạn muốn thuê một VPS, hay Cloud Compute Engine. Terminal thực sự giúp cuộc sống lập trình viên dễ dàng hơn, hay vì luôn dùng chuột để điều khiển máy tính.
 
-![](image7.jpg)
+![](static/image7.jpg)
 
 ### 🍀 Cộng đồng hỗ trợ
 
@@ -83,4 +83,4 @@ MacOS cũng sở hữu một lượng fan, phần lớn về sáng tạo (thiế
 
 Và cuối cùng, Windows được sử dụng đại trà bởi người dùng phổ thông.
 
-![](image8.jpg)
+![](static/image8.jpg)

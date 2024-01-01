@@ -13,7 +13,7 @@ toc: true
 
 > Distro là từ viết tắt của linux distribution, có tên tiếng việt là phân phối của Linux.
 
-![](branches.png)
+![](static/branches.png)
 
 ## 1. Khái niệm Distro
 
@@ -37,25 +37,25 @@ Linux hiện đang được chia làm các nhánh chính như sau:
   - **Nhánh thử nghiệm**: Đây là phiên bản tiếp theo của phiên bản ổn định ở hiện tại. Phiên bản thử nghiệm thường ẩn chứa nhiều lỗi trong hệ thống cùng packages không ổn định. Việc cập nhật lên phiên bản thử nghiệm quá sớm có thể khiến hệ thống của bạn không ổn định. Tuy nhiên đây cũng là lúc mà cộng đồng người dùng có thể đóng góp để giúp nhà phát hành khắc phục lỗi và cho ra thêm nhiều tính năng mới phù hợp với nhu cầu người dùng.
   - **Nhánh không ổn định**: Đây là nhánh được phát hành mà trong đó những packages chưa được thông qua kiểm tra nên sẽ tiêm ẩn nhiều nguy cơ xảy ra lỗi trong quá trình sử dụng.
 
-![](dedian.png)
+![](static/dedian.png)
 
 > Khám phá thêm về **Debian** [tại đây](https://www.debian.org/index.vi.html).
 
 - **Ubuntu**: Được phát hành vào năm 2004, Ubuntu được dựa trên phiên bản không ổn định của Debian. Với sự phát triển, đóng góp của cộng đồng, Ubuntu đã và đang trở thành một trong những distro được sử dụng nhiều nhất. Ubuntu sử dụng giao diện đồ họa người dùng (GUI) **GNOME** (GNU Network Object Model Environment) mang đến một giao diện thân thiện với người dùng và chính nhờ vậy, đây là một distro phù hợp cho những người mới tiếp cận đến "Linux".
 
-![](ubuntu.png)
+![](static/ubuntu.png)
 
 > Khám phá thêm về **Ubuntu** [tại đây](https://ubuntu.com/).
 
 - **Linux Mint**: Đây là một bản phân phối dựa trên Ubuntu. Linux Mint được đánh giá là có giao diện thân thiện nhất với người dùng Windows. Tương tự như các distro khác, Linux Mint có cộng đồng người dùng lớn, giúp cho distro này ngày càng phát triển mạnh và trở thành lựa chọn thay thế tốt cho Ubuntu.
 
-![](mint.png)
+![](static/mint.png)
 
 > Khám phá thêm về **Linux Mint** [tại đây](https://linuxmint.com/).
 
 - **Kali linux**: Là một bản phân phối dựa trên Debian, mục tiêu của nó là: tập hợp nhiều công cụ kiểm tra bảo mật và thâm nhập tốt nhất có thể trong một môi trường hệ điều hành. Bạn có thể tìm thấy nhanh gọn nhiều công cụ mã nguồn mở để thực hiện các quy trình kiểm thử (pentest), tấn công, điều tra số, dịch ngược, ... Kali Linux là hệ điều hành ưa thích của nhiều hacker trên thế giới.
 
-![](kali.png)
+![](static/kali.png)
 
 > Khám phá thêm về **Kali Linux** [tại đây](https://www.kali.org/).
 
@@ -63,19 +63,19 @@ Linux hiện đang được chia làm các nhánh chính như sau:
 
 - **Fedora**: là nhánh được phân phối phi thương mại được phát hành bởi Red Hat, được tạo ra nhằm kiểm thử các công nghệ cho một bản phân phối thương mại khác của Red Hat, nơi mà các phần mềm nguồn mở mới được tạo lập, phát triển và kiểm thử trong phiên bản miễn phí trước khi đưa tính năng ấy chính thức vào Red Hat Enterprise.
 
-![](fedora.jpg)
+![](static/fedora.jpg)
 
 > Khám phá thêm về **Fedora** [tại đây](https://getfedora.org/).
 
 - **OpenSUSE**: Đây là một dự án mã nguồn mở với các bản phân phối dựa trên Linux do SUSE - một công ty phần mềm mã nguồn mở, đa quốc gia, có trụ sở tại Đức phát triển và kinh doanh Linux cho các khách hàng doanh nghiệp. OpenSuse được biết đến với cả KDE Desktop và Gnome Desktop mang đến sự đa dạng cho người dùng.
 
-![](opensuse.png)
+![](static/opensuse.png)
 
 > Khám phá thêm về **OpenSuse** [tại đây](https://www.opensuse.org/).
 
 - **CentOS**: CentOS là một dự án mã nguồn mở được phát triển bởi Red Hat, Inc. là một công ty phần mềm Mỹ cung cấp sản phẩm phần mềm mã nguồn mở cho cộng đồng doanh nghiệp. CentOS sở hữu hai bản phân phối riêng biệt: CentOS Stream và CentOS Linux. CentOS Stream là nền tảng phát triển cho những bản phân phối Linux trong tương lai của Red Hat® Enterprise.
 
-![](centos.png)
+![](static/centos.png)
 
 > Khám phá thêm về **CentOS** [tại đây](https://www.centos.org/).
 
@@ -83,13 +83,13 @@ Linux hiện đang được chia làm các nhánh chính như sau:
 
 - **Slackware**: là nhánh đầu tiên được phân phối trên nhân linux. Slackware không có trình quản lý packages và tất cả phần mềm được biên dịch bởi quản trị viên hệ thống hoặc người dùng bình thường của hệ thống.
 
-![](slackware.png)
+![](static/slackware.png)
 
 > Khám phá thêm về **Slackware** [tại đây](http://www.slackware.com/).
 
 - **Arch Linux**: một bản phân phối nhắm vào những người dùng Linux có kinh nghiệm và được duy trì bởi một cộng đồng mạnh mẽ trên tinh thần tình nguyện, cung cấp các packages chính thức và một loạt các packages không chính thức do người dùng gửi. Các packages thường được định hình để cài đặt bởi một tệp văn bản gọi là PKGBUILD (Ubunchuu sẽ có một chủ đề riêng tất tần tật về Arch Linux).
 
-![](arch.png)
+![](static/arch.png)
 
 > Khám phá thêm về **Arch Linux** [tại đây](https://archlinux.org/).
 

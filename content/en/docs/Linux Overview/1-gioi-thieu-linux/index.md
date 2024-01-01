@@ -17,7 +17,7 @@ Chào mừng bạn đến với bài viết đầu tiên, mở đầu tutorial c
 Mình là Tux, người đồng hành cùng bạn trong cuộc hành trình này.
 Hãy cùng bắt đầu với một chút flashback về lịch sử đằng sau sự hình thành linux.
 
-## 1️⃣ Lịch sử hình thành
+## 1️. Lịch sử hình thành
 
 Năm 1969, Ken Thompson và Dennis Ritchie tại viện nghiên cứu Bell (đại học MIT) đã phát triển hệ điều hành UNIX.
 Ban đầu, UNIX được viết bằng assembly.
@@ -29,7 +29,7 @@ Tuy nhiên, chúng đều không quá thành công.
 
 > **Nhân** (kernel) là thành phần quan trọng nhất của một hệ điều hành. Nhân cho phép phần cứng "nói chuyện" được với phần mềm. Ngoài ra, nó còn có thể làm được ti tỉ thứ khác, nhưng chúng ta sẽ tìm hiểu sau. Còn giờ, bạn chỉ cần biết nhân điều khiển hầu như mọi thứ trong hệ thống của bạn.
 
-![](debian.PNG)
+![](static/debian.PNG)
 
 Vào năm 1991, một thanh niên trẻ tên Linus Torvalds đã bắt đầu phát triển thứ mà chúng ta gọi là nhân linux.
 Và rồi... boom!
@@ -45,7 +45,7 @@ Linux là hệ điều hành mã nguồn mở (open-source) ra đời từ kho�
 
 Linux được xuất bản dưới giấy phép công cộng GNU, giúp hạn chế hoạt động về thương mại. Ông từng tuyên bố, "Phát hành Linux theo GNU chắc chắn là điều tốt nhất tôi từng làm." Nếu không thì chúng ta đã không có một hệ điều hành tuyệt vời với đông đảo lập trình viên ưa thích như hôm nay.
 
-## 2️⃣ Tổng quan về Linux
+## 2️. Tổng quan về Linux
 
 Cấu trúc hệ điều hành Linux tóm gọn lại chỉ gồm 3 phần chính:
 
@@ -53,6 +53,6 @@ Cấu trúc hệ điều hành Linux tóm gọn lại chỉ gồm 3 phần chín
 - **Shell**: là phần có chức năng thực thi các lệnh (command) từ người dùng hoặc từ các ứng dụng yêu cầu, chuyển đến cho kernel xử lý. Nói nôm na, shell chính là cầu nối để kernel và ứng dụng nói chuyện với nhau.
 - **Application**: là phần quen thuộc với chúng ta nhất, phần để người dùng cài đặt và chạy ứng dụng để người dùng có thể phục vụ cho nhu cầu của mình.
 
-![](pie.png)
+![](static/pie.png)
 
 💡 **Ghi nhớ**: Linux là hệ điều hành open-source, đa số các thao tác thực hiện trên linux sẽ thông qua các câu lệnh gọn gàng và nhanh trên terminal.
