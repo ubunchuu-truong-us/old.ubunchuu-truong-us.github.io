@@ -92,6 +92,7 @@ jobs:
           cp -rT ./public/ ./
           rm -rf ./public
           ls -lah
+          rm -rf .github .gitignore .hugo_build.lock
           git add --all
           git commit -m "🚀 Deploy to GitHub Pages"
 
