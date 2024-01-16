@@ -28,7 +28,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm install && npm install postcss-cli && hugo
+          npm install && npm install postcss-cli
 
       - name: Build Static Site
         run: |
@@ -40,8 +40,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
+            const fs = require('fs');
             const result = fs.existsSync("./public") ? "✅ Build success" : "❌ Build failure";
-            github.issues.createComment({
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -51,7 +52,7 @@ jobs:
             fs.rmdirSync("./public", { recursive: true });
 
   deploy:
-    name: Deploy to gh-pages 🚀
+    name: Deploy to gh-pages
     if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-22.04
     environment: github-pages
@@ -72,7 +73,6 @@ jobs:
         run: |
           npm install
           npm install postcss-cli
-          hugo
 
       - name: Build Static Site
         run: |
@@ -91,6 +91,9 @@ jobs:
         run: |
           cp -rT ./public/ ./
           rm -rf ./public
+          ls -lah
+          git add --all
+          git commit -m "🚀 Deploy to GitHub Pages"
 
       - name: Push to gh-pages branch
         uses: ad-m/github-push-action@v0.6.0
