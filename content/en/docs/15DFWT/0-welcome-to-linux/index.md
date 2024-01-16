@@ -17,7 +17,7 @@ Xin chào, lại là Tux đây! Sau khi cài đặt thành công Ubuntu, bước
 Nhìn chung, các hệ máy UNIX như Linux, MacOS đều cung cấp một giao diện làm việc với dòng lệnh (Command Line Interface), hay gọi dân dã là Terminal. Bạn có thể mở terminal bằng icon này hoặc ấn tổ hợp `Crtrl + Alt + T`.
 
 ### Check package update
-```bash=
+```bash
 sudo apt-get update
 sudo apt-get dist-upgrade
 ```
@@ -25,7 +25,7 @@ sudo apt-get dist-upgrade
 > :information_source: Nhớ dùng mật khẩu đã nhập ở khâu cài đặt nhé!
 
 ### Cài đặt các thư viện cần thiết
-```bash=
+```bash
 sudo apt-get install software-properties-common build-essential openssl-dev dirmngr gnupg apt-transport-https ca-certificates -y
 sudo apt-get install curl wget -y
 ```
@@ -40,7 +40,7 @@ Trang chủ của [IBus Bamboo](https://github.com/BambooEngine/ibus-bamboo).
 
 Chạy từng dòng một như dưới đây nhé:
 
-```bash=
+```bash
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo apt-get update
 sudo apt-get install ibus ibus-bamboo --install-recommends
@@ -62,7 +62,7 @@ Htop giúp bạn kiểm tra tài nguyên hiện tại của máy như CPU, RAM, 
 
 Kiểm tra htop đã được cài hay chưa:
 
-```bash=
+```bash
 htop --version
 # Nếu chưa được cài
 sudo apt install htop
@@ -73,7 +73,7 @@ Bên cạnh htop, neofetch cho bạn cái nhìn tổng quan về hiện trạng 
 ![](https://i.imgur.com/XX3ewNG.png)
 
 Kiểm tra neofetch đã được cài hay chưa:
-```bash=
+```bash
 neofetch
 # Nếu chưa được cài
 sudo apt install neofetch
@@ -83,7 +83,7 @@ sudo apt install neofetch
 
 Tiếp theo là ứng dụng để chụp màn hình, ở đây Tux dùng flameshot vì độ nhẹ và dễ chỉnh sửa:
 
-```bash=
+```bash
 sudo apt-get install flameshot -y
 ```
 
@@ -105,7 +105,7 @@ Sau khi download về, bạn có thể vào thư mục Downloads và click vào 
 
 VLC là ứng dụng mã nguồn mở để xem video phổ biến trên Linux.
 
-```bash=
+```bash
 # Kiểm tra VLC đã cài trong máy
 vlc --version
 # Cài đặt VLC
@@ -125,7 +125,7 @@ Giả sử bạn cần cài ứng dụng tên là **ubunchuu**:
 
 - Cài đặt bằng terminal
 
-```bash=
+```bash
 sudo apt update
 sudo apt install ubunchuu
 ```

@@ -1,10 +1,13 @@
-<center>
-<h1> Ubunchuu Trường Ú Blog </h1>
+<h1> <b>Ubunchuu Trường Ú Blog  </b></h1>
 
-<img src="assets/images/icon.png" width="150" alt="logo">
+[![npm version](https://badge.fury.io/js/doks.svg)](https://badge.fury.io/js/doks) [![github pages](https://github.com/ubunchuu-truong-us/ubunchuu-truong-us.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/ubunchuu-truong-us/ubunchuu-truong-us.github.io/actions/workflows/gh-pages.yml) [![pages-build-deployment](https://github.com/ubunchuu-truong-us/ubunchuu-truong-us.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ubunchuu-truong-us/ubunchuu-truong-us.github.io/actions/workflows/pages/pages-build-deployment)
 
-Welcome to the ubunchuu-truong-us blog, built with <b>Hugo and Doks</b>.
-</center>
+<div style="display: flex; align-items: center;">
+  <img src="assets/images/icon.png" width="150" alt="logo">
+  <div style="margin-left: 20px">
+    <p>Welcome to the ubunchuu-truong-us blog, built with <b>Hugo and Doks</b>.</p>
+  </div>
+</div>
 
 ## Contributing
 
@@ -21,7 +24,7 @@ cd ./content/en/docs/
 ```bash
 npm install
 ```
-3. Start the development server (will live reload with port 3000)
+3. Start the development server (will live reload with port 1313)
 ```bash
 npm run start
 ```

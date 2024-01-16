@@ -50,24 +50,24 @@ Nếu thiết bị của bạn đã cài đặt trước OneDrive với bất k�
 ### Xóa OneDrive đã có sẵn trên thiết bị
 Nếu thiết bị của bạn chưa cài đặt OneDrive, bạn có thể bỏ qua bước này và tiếp tục ở bước [Cài đặt OneDrive](#Cài-đặt-OneDrive)
 Đầu tiên, hãy thực hiện việc xóa OneDrive (nếu đã có sẵn trong OS).
-```bash=
+```bash
 sudo apt remove onedrive
 sudo apt autoremove
 ```
 
 Hãy chạy lệnh ```apt update``` để thực hiện việc cập nhật danh sách các packages của hệ thống và lệnh này sẽ không thực hiện nâng cấp bất kỳ package nào của hệ thống cả.
-```bash=
+```bash
 sudo apt update
 ```
 ### Cài đặt OneDrive
 
 Thao tác cài đặt OneDrive sẽ được thực hiện qua câu lệnh sau:
-```bash=
+```bash
 sudo apt-get install onedrive
 ```
 
 Quá trình cài đặt sẽ không tốn nhiều thời gian, để kiểm tra xem OneDrive đã cài đặt thành công hay chưa, các bạn có thể nhập lệnh sau:
-```bash=
+```bash
 onedrive --version
 ```
 
@@ -77,7 +77,7 @@ onedrive --version
 > Terminal sẽ hiển thị kết quả là phiên bản mới nhất của OneDrive được cài đặt trong máy.
 
 Để bắt đầu sử dụng OneDrive, hãy nhập ```onedrive``` vào Terminal và ấn Enter.
-```bash=
+```bash
 onedrive
 ```
 Kết quả trả về là một đường link đăng nhập của OneDrive. Các bạn hãy copy đường link đó vào trình duyệt và tiến hành đăng nhập như thông thường. Sau khi đăng nhập, các bạn sẽ được trình duyệt chuyển đến một trang trống, hãy copy đường link của trang đó và paste vào Terminal nhé.
@@ -92,11 +92,11 @@ Sau khi thao tác, các bạn sẽ thầy dòng thông báo biểu thị việc 
 
 
 Lúc này, các bạn có thể sử dụng lệnh sau đề đồng bộ hóa tất cả dữ liệu trên OneDrive xuống máy của các bạn:
-```bash=
+```bash
 onedrive --synchronize
 ```
 Để biết thêm nhiều tùy chọn khác của OneDrive như ```loggout```, ..., vui lòng nhập lệnh sau:
-```bash=
+```bash
 onedrive --help
 ```
 
@@ -109,7 +109,7 @@ Khi thực hiện việc đồng bộ hóa dữ liệu theo mặc định, OneDr
 Ở đây, tụi mình muốn OneDrive sẽ đồng bộ hóa dữ liệu vào thư mục ```Documents``` trong hệ thống. Cách cài đặt sẽ được thực hiện như sau: 
 
 Đầu tiên hãy tạo file config của OneDrive trong hệ thống.
-```bash=
+```bash
 mkdir -p ~/.config/onedrive
 cd ~/.config/onedrive
 sudo touch config.txt
@@ -120,7 +120,7 @@ Tiếp theo, chúng ta sẽ mở file ```config.txt``` lên và tiến hành c�
 - **skip_files:** Loại file (hoặc mẫu file) không được đồng bộ. Tuy nhiên, nếu bạn muốn đồng bộ hóa hết tất cả dữ liệu thì bạn không cần quan tâm tới cấu hình này.
 
 Để mở file ```config.txt```, các bạn thực hiện câu lệnh sau:
-```bash=
+```bash
 sudo nano config.txt
 ```
 
@@ -128,19 +128,19 @@ sudo nano config.txt
 
 
 Các bạn hãy thêm vào file dòng sau:
-```text=
+```text
 sync_dir = "~/Documents"
 ```
 
 ![](https://i.imgur.com/rYKuBNY.png)
 
 Đây là thao tác đồng bộ hóa dữ liệu trên OneDrive vào thư mục **Documents** với cấu hình là tất cả các định dạng của dữ liệu. Chẳng hạn, nếu các bạn không muốn đồng bộ hóa các file có đuôi ```.bat```, hãy thêm vào bước trên dòng lệnh sau nhé: 
-```text=
+```text
 skip_file = ".bat"
 ```
 Sau đó hãy ấn **Ctrl + X** và chọn **Y** để lưu lại file cấu hình này.
 Cuối cùng, hãy nhập lệnh để OneDrive tiến hành đồng bộ hóa dữ liệu nha.
-```bash=
+```bash
 onedrive --synchronize
 ```
 Kết quả cuối cùng là thư mục chúng ta mong muốn đã được đồng bộ hóa dữ liệu.
@@ -148,7 +148,7 @@ Kết quả cuối cùng là thư mục chúng ta mong muốn đã được đ�
 Thông thường, OneDrive không tự khởi động khi đăng nhập. Tuy nhiên, Ubunchuu có cách để giúp các bạn khắc phục việc này.
 
 Hãy nhập dòng lệnh sau để OneDrive luôn khởi động cùng thiết bị nha.
-```bash=
+```bash
 systemctl --user enable onedrive
 systemctl --user start onedrive
 ```

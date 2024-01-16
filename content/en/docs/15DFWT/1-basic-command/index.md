@@ -31,7 +31,7 @@ Lệnh có 2 tags chính: -L (Logical), -P (Physical)
 
 **Ví dụ:**
 
-```bash=
+```bash
 pwd #Output: /home/ubunchuu nếu username là ubunchuu
 ```
 
@@ -41,7 +41,7 @@ Lệnh `cd` (change directory) dùng để di chuyển đến thư mục khác.
 
 **Ví dụ:**
 
-```bash=
+```bash
 cd /home/ubunchuu/oop-project
 ```
 > Lúc này khi lệnh cd đã được thực thi, chúng ta sẽ có output của lệnh `pwd` bên trên là: `/home/ubunchuu/oop-project`
@@ -64,7 +64,7 @@ Các tags của lệnh list:
 
 **Ví dụ:**
 
-```bash=
+```bash
 ls -a #list ra tất cả file, kể cả file ẩn trong thư mục hiện tại
 ```
 
@@ -75,7 +75,7 @@ Lệnh `touch` dùng để tạo ra một file mới tại thư mục hiện t�
 
 **Ví dụ:**
 
-```bash=
+```bash
 touch /home/ubunchuu/document/penguin.cpp # tạo file vào đường dẫn này
 touch penguin.cpp # tạo file tại thư mục đang cd vào
 ```
@@ -86,7 +86,7 @@ Lệnh `mkdir` (make directory) dùng để tạo ra một thư mục mới tạ
 
 **Ví dụ:**
 
-```bash=
+```bash
 mkdir ubunchuu-vip #tạo thư mục tên ubunchuu bên trong thư mục hiện tại
 mkdir /home/ubunchuu/document/ubunchuu-vip #tạo thư mục tên ubunchuu bên trong thư mục hiện tại
 ```
@@ -101,7 +101,7 @@ Một số mẹo hay với lệnh cat:
 
 **Ví dụ:**
 
-```bash=
+```bash
 cat cautrucdulieu.txt # In output bên trong file trên Terminal
 ```
 
@@ -115,7 +115,7 @@ Một số cách dùng với lệnh `cp`:
 
 **Ví dụ:**
 
-```bash=
+```bash
 cp hoclinux.txt mybrain/
 ```
 
@@ -127,7 +127,7 @@ Các cách dùng lệnh mv:
 - `mv old_filename.txt new_filename.txt`: đổi tên một file sang tên khác.
 
 **Ví dụ:**
-```bash=
+```bash
 mv old-ubunchuu.cpp new-ubunchuu.cpp
 ```
 
@@ -142,7 +142,7 @@ Các tags của lệnh `rm`:
 
 **Ví dụ:**
 
-```bash=
+```bash
 rm -rf windows # xóa tất cả file và thư mục con của thư mục windows
 ```
 
@@ -152,7 +152,7 @@ Lệnh `grep` dùng để tìm kiếm và hiển thị các dòng trong file ph�
 
 **Ví dụ:**
 
-```bash=
+```bash
 grep "pattern" filename.txt
 grep linux ubunchuu.txt # hiển thị ra những dòng có linux trong file.
 ```
