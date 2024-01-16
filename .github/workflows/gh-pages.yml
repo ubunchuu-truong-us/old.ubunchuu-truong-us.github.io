@@ -1,100 +1,27 @@
 name: github pages
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 on:
-  workflow_dispatch:
   push:
-    branches: [main]
+    branches:
+      - main # Set a branch that will trigger a deployment
   pull_request:
-    branches: [main]
-  
 jobs:
-  build-test:
-    name: Test build failure or success
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true
-          fetch-depth: 0
-      
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest"
-          extended: true
-
-      - name: Install Dependencies
-        run: |
-          npm install && npm install postcss-cli && hugo
-
-      - name: Build Static Site
-        run: |
-          npm run build
-          
-      - name: Comment result on PR
-        if: github.event_name == 'pull_request'
-        uses: actions/github-script@v5
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const result = fs.existsSync("./public") ? "✅ Build success" : "❌ Build failure";
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: result
-            });
-            core.setOutput("result", result);
-            fs.rmdirSync("./public", { recursive: true });
-
   deploy:
-    name: Deploy to gh-pages
-    if: (github.ref == 'refs/heads/main' && github.event_name == 'push') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-22.04
-    environment: github-pages
-    needs: [build-test]
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true
-          fetch-depth: 0
-      
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
           extended: true
-
-      - name: Install Dependencies
-        run: |
-          npm install
-          npm install postcss-cli
-          hugo
-
-      - name: Build Static Site
-        run: |
-          npm run build
-        
-      - name: Checkout to gh-pages branch
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git checkout -b gh-pages
-          shopt -s extglob
-          rm -rf !(public)
-          shopt -u extglob
-
-      - name: Copy build files
-        run: |
-          cp -rT ./public/ ./
-          rm -rf ./public
-
-      - name: Push to gh-pages branch
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Build
+        run: npm install postcss-cli && hugo
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
+          publish_dir: ./public
