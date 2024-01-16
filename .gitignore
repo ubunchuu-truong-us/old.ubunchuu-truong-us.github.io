@@ -1,2 +1,3 @@
-vendor/*
-Gemfile.lock
+**/vendor/*
+**/Gemfile.lock
+**/node_modules/

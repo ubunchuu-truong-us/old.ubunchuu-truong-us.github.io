@@ -1,27 +1,45 @@
-name: github pages
+name: Deploy to gh-pages
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches:
-      - main # Set a branch that will trigger a deployment
+      - main
   pull_request:
+  workflow_dispatch:
+  
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+    environment: github-pages
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "latest"
-          extended: true
+          submodules: true
+          fetch-depth: 0
+
+      - name: Install Dependencies
+        run: npm install
+
       - name: Build
-        run: npm install postcss-cli && hugo
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        run: npm run build
+
+      - name: Checkout to gh-pages branch
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git checkout gh-pages
+          rm -rf *
+
+      - name: Copy build files
+        run: |
+          cp -rT public/ .
+          rm -rf public
+
+      - name: Push to gh-pages branch
+        uses: ad-m/github-push-action@v0.6.0
         with:
+          branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
