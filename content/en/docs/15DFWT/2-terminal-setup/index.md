@@ -54,6 +54,10 @@ sudo apt-get install alacritty -y
 
 Lúc này, Alacritty cơ bản đã được cài đặt thành công vào máy của bạn. Tuy nhiên, Alacritty vẫn sử dụng các config default và những thứ này hoàn toàn có thể customize lại được tùy ý theo ý thích của mình.
 
+> Bạn có thể config thành như này
+
+![image](https://hackmd.io/_uploads/SJ56YWGUa.png)
+
 ## Tùy chỉnh Alacritty
 
 Những config của Alacritty thường nằm trong một file YAML. Bạn có thể tìm default config tại **`~/.config/alacritty/alacritty.yml`** và chỉnh sửa theo ý muốn.
@@ -138,6 +142,13 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsM
 # Dùng curl để download
 curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/JetBrainsMono.zip -O  JetBrainsMono.zip
 ```
+
+
+> Nếu không tìm được, có lẽ bạn đã chọn nhầm phiên bản release. Thử đổi về 1, 2 phiên bản cũ hơn nhé!
+
+![image](https://hackmd.io/_uploads/H1evyzM8a.png)
+
+
 2. Extract file zip vừa download về
 ```bash
 unzip JetBrainsMono.zip
@@ -152,81 +163,21 @@ cp JetBrainsMono/*.ttf ~/.fonts
 fc-cache -f -v
 ```
 
+**Alternative fonts**: Fira Code, Consolas, DejaVu Sans Mono, ...
+
 ## Config của Tux (bằng Toml)
 
-> Link: https://github.com/ubunchuu-truong-us/dotfiles/blob/main/alacritty.toml
+### Config của Tux
 
-Hoặc các cánh cụt cũng có thể copy trực tiếp từ đây và paste vào file config của mình: (nhớ đổi đuôi file thành `.toml` nhé)
+Dựa vào hướng dẫn trên, Tux tin bạn có thể tự config theo ý thích của mình, hãy dành thời gian chơi đùa với alacritty nhé!
 
-```toml
-live_config_reload = true
+![image](https://hackmd.io/_uploads/SkZT-MGUa.png)
 
-[colors]
-draw_bold_text_with_bright_colors = true
+Còn đây là config của Tux, bạn thấy hứng thứ có thể nghía qua nhe: https://github.com/ubunchuu-truong-us/dotfiles/blob/main/alacritty.toml
 
-[colors.bright]
-black = "#565656"
-blue = "#49a4f8"
-cyan = "#99faf2"
-green = "#c0e17d"
-magenta = "#a47de9"
-red = "#ec5357"
-white = "#ffffff"
-yellow = "#f9da6a"
+> Nó sẽ trông như này
 
-[colors.normal]
-black = "#2e2e2e"
-blue = "#47a0f3"
-cyan = "#64dbed"
-green = "#abe047"
-magenta = "#7b5cb0"
-red = "#eb4129"
-white = "#e5e9f0"
-yellow = "#f6c744"
-
-[colors.primary]
-background = "#101421"
-foreground = "#fffbf6"
-
-[cursor]
-style = "Block"
-
-[env]
-TERM = "alacritty"
-
-[font]
-size = 13
-
-[font.normal]
-family = "JetBrainsMono Nerd Font Mono"
-
-[scrolling]
-history = 10000
-multiplier = 3
-
-[selection]
-save_to_clipboard = true
-semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
-
-[window]
-decorations = "Full"
-dynamic_padding = false
-opacity = 0.95
-startup_mode = "Windowed"
-title = "Alacritty"
-
-[window.class]
-general = "Alacritty"
-instance = "Alacritty"
-
-[window.dimensions]
-columns = 160
-lines = 45
-
-[window.padding]
-x = 5
-y = 0
-```
+![31 (1)](https://hackmd.io/_uploads/BkRgVzfIT.png)
 
 ## Uninstall alacritty
 
