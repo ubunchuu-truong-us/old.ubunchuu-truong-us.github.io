@@ -20,36 +20,36 @@ Một số cái tên khác bạn có thể bắt gặp:
 
 Và tương lai còn có GPT-Shell 🤡.
 
-![image](https://hackmd.io/_uploads/BJhCwmG5T.png)
+![image](static/shell-bashgpt.png)
 
 Tuy nhiên, Bash Shell gặp một số vấn đề về hiệu năng khi ta thực hiện những việc mang tính chất "nặng đô" như: tìm kiếm trong cây thư mục (nhấn `Tab`), tìm lại các lệnh đã sử dụng trong lịch sử (phải thực hiện thao tác`cat ~/.bash_history | grep -i...`), và hơn hết, Bash Shell cực kỳ hạn chế về khả năng custom, như cài theme, plugins, autofill, syntax highlighting...
 
 Và **Z Shell** (hay **zsh**) ra đời là để giải quyết những hạn chế của Bash Shell.
 
-![](https://hackmd.io/_uploads/r1jBRojGa.png)
+![image](static/eat_zsh.png)
 
 Để điểm danh một số ưu điểm của `zsh` mà Ubunchuu chúng mình thấy nổi bật nha:
 - **Syntax Highlight**, **Auto Suggestions**: Bộ đôi plugins này chúng mình thấy như là essential khi làm việc trên terminal luôn, kể cả trong công việc hay học tập thường ngày, hai plugins này luôn là "ân nhân cứu cánh" những Ubunchuu-ers giúp hoàn thành câu lệnh, để tiết kiệm thời gian cũng như tránh việc tụi mình tự gõ và gõ nhầm lệnh shell.
 
-![image](https://hackmd.io/_uploads/BkQMnfGqp.png)
+![image](static/docker_1.png)
 
 > **Syntax highlight chữ đầu** câu lệnh cũng giúp tụi mình nhận biết được module hay package mà chúng mình đang dùng có được install đúng cách hay chưa, hay có lỗi typo gì không. Ví dụ như hình trên, nếu mình nhập sai (`dockker` thay vì `docker` chẳng hạn) thì câu lệnh sẽ không được highlight màu xanh lá như hình. Ví dụ cho việc nhập sai lệnh:
 
-![image](https://hackmd.io/_uploads/S12Q2Gz5a.png)
+![image](static/docker_2.png)
 
 - **Quản lý file và thư mục:** Không phải bàn đến lý do chính khi mọi người chuyển qua dùng `zsh` rồi, đó là tốc độ của `zsh` khi dùng để làm việc với cây thư mục trong Linux, các bạn cứ thử cài xong và nhấn `TAB` là sẽ thấy rõ sự khác biệt.
 
-![image](https://hackmd.io/_uploads/HymI_mz9T.png)
+![image](static/ls.png)
 
 - **Plugin và theme:** Hỗ trợ plugin và theme cực kỳ đa dạng, và cũng có cộng đồng phát triển `open-source` rất rộng rãi.
 
-![image](https://hackmd.io/_uploads/SkPZFmz9a.png)
+![image](static/plugin.png)
 
 - *Nói chung là... nhiều lắm, Tux khuyên các bạn hãy dùng và cảm nhận.* Được rồi, giờ thì đến phần cài đặt thôi!
 
 ## Cài đặt và cấu hình ZSH tất tần tật từ A-Z
 
-![image](https://hackmd.io/_uploads/BkEPYmzqT.png)
+![image](static/zim.png)
 
 ### Tiến hành cài `zsh` core package
 - Quaoo giới thiệu nãy giờ nghe tuyệt vời quá, thế thì phần cài đặt `zsh` đây 🥲
@@ -127,7 +127,7 @@ source ~/.zshrc
 
 - Đến đây hãy config theo hướng dẫn của Powerlevel10k (lưu ý hãy cài Nerd Font trước khi làm bước này, để cài nerd font, bấm vào [link này](https://github.com/ryanoasis/nerd-fonts))
 
-![image](https://hackmd.io/_uploads/r15l3mzqT.png)
+![image](static/p10k.png)
 
 > Trong trường hợp bạn chưa cài Nerd Font mà đã hiện bảng trên, hãy nhấn `q` để thoát, sau đó cài font vào Alacritty (hoặc Terminal Emulator khác), rồi gõ lệnh sau để mở config của `powerlevel10k`
 > ```text
@@ -149,7 +149,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 #### Option 2: `zimfw` (Highly recommended)
 
-![image](https://hackmd.io/_uploads/SkEihXzcp.png)
+![image](static/zim.png)
 
 - Gỡ cài đặt `oh-my-zsh` nếu bạn đã cài sẵn:
 
@@ -173,7 +173,7 @@ Kiểm tra zim được cài thành công chưa:
 zimfw
 ```
 
-![image](https://hackmd.io/_uploads/H169pXGca.png)
+![image](static/zimfw.png)
 
 - Sau đấy bạn hãy vào file `~/.zshrc` bằng nano/vim/vscode và tìm đến dòng có nội dung này:
 
@@ -185,7 +185,7 @@ compinit
 
 Comment out 2 dòng này lại như hình bên dưới. Lý do là zimfw sẽ tự động source `comp init` nên không cần phải source từ `zshrc`.
 
-![image](https://hackmd.io/_uploads/r1dMC7fq6.png)
+![image](static/153.png)
 
 Mặc định Zim đã cài sẵn cho bạn vài plugin như `git`, `zsh-autosuggestions`, `zsh-syntax-highlighting`... Bạn có thể dùng luôn mà không cần config gì thêm.
 
@@ -210,7 +210,7 @@ zimfw uninstall && zimfw install
 
 Bật lại terminal và enjoy!
 
-![image](https://hackmd.io/_uploads/HyC9y4Mc6.png)
+![image](static/asciiship.png)
 
 **Còn Powerlevel10k thì sao?**
 
@@ -224,7 +224,7 @@ zmodule romkatv/powerlevel10k
 
 Thực hiện lệnh tương tự. `zimfw install`, khởi động lại terminal rồi `p10k configure`.
 
-![image](https://hackmd.io/_uploads/SJQUx4z9T.png)
+![image](static/p10k_2.png)
 
 ### Tham khảo thêm
 
