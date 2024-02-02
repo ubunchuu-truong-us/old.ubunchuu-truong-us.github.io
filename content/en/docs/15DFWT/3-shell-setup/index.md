@@ -116,7 +116,7 @@ nano ~/.zshrc
 - Tìm dòng ZSH_THEME có trong ~/.zshrc và sau đó replace như thế này (mặc định ~/.zshrc với `oh-my-zsh` sẽ là theme `robbyrussel`):
 
 ```text 
- ZSH_THEME="powerlevel10k/powerlevel10k”
+ ZSH_THEME="powerlevel10k/powerlevel10k"
  ```
  
 - Source file `~/.zshrc` hoặc tắt rồi mở lại Terminal:
